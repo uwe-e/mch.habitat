@@ -202,6 +202,8 @@
     <Content Include="fonts\open-sans-v13-latin-regular.ttf" />
     <Content Include="fonts\open-sans-v13-latin-regular.woff" />
     <Content Include="fonts\open-sans-v13-latin-regular.woff2" />
+    <Content Include="App_Config\Include\Project\z.MCH.config" />
+    <Content Include="App_Config\Include\Project\z.Sitecore.config" />
     <None Include="Properties\PublishProfiles\Habitat.pubxml" />
     <Content Include="styles\dayfrost.css">
       <DependentUpon>dayfrost.scss</DependentUpon>
