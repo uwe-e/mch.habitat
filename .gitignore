@@ -26,3 +26,4 @@ temp/
 *.ncrunchsolution
 .vscode
 nCrunchTemp*.*
+/src/Project/Habitat/serialization/Project.Habitat.Users/habitat/u.we@home.de.yml
