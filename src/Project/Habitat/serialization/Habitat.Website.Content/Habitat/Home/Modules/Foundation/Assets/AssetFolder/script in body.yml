@@ -1,0 +1,25 @@
+﻿---
+ID: "5db24d36-b0e9-498d-adca-517c5fcb4801"
+Parent: "16f95984-d9ca-4d68-a0bc-c61cc105ce70"
+Template: "a1989802-564a-4680-85f8-d7e397ee4e80"
+Path: /sitecore/content/Habitat/Home/Modules/Foundation/Assets/AssetFolder/script in body
+DB: master
+SharedFields:
+- ID: "7c944a28-228e-4f11-b751-402f90ec6190"
+  Hint: Comment
+  Value: it's only a script test
+- ID: "7dc02058-6de9-4a18-acfd-e46131a99d48"
+  Hint: Code
+  Value: |
+    jQuery("h1").after( "<p>text from asset script!</p>" );
+- ID: "c1f46fb2-8124-4c67-8034-3a4e9f53f3f1"
+  Hint: Script Location
+  Value: "{091855D9-40C0-4368-A557-A4B3BDC39AB7}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170720T113200Z

@@ -1,0 +1,18 @@
+﻿---
+ID: "16f95984-d9ca-4d68-a0bc-c61cc105ce70"
+Parent: "adc269ac-387a-4967-a28b-0a793e42c1e1"
+Template: "4ace1ea6-ec7d-433c-a491-30b373709f3b"
+Path: /sitecore/content/Habitat/Home/Modules/Foundation/Assets/AssetFolder
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170720T113032Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

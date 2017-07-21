@@ -1,0 +1,24 @@
+﻿---
+ID: "9c9d54ac-fd0f-4f8b-8084-771b59faa082"
+Parent: "16f95984-d9ca-4d68-a0bc-c61cc105ce70"
+Template: "a1989802-564a-4680-85f8-d7e397ee4e80"
+Path: /sitecore/content/Habitat/Home/Modules/Foundation/Assets/AssetFolder/script
+DB: master
+SharedFields:
+- ID: "7dc02058-6de9-4a18-acfd-e46131a99d48"
+  Hint: Code
+  Value: 
+- ID: "a27dc786-3472-49ce-8398-a490413ec63a"
+  Hint: Src
+  Value: //media.messe.ch/ue/scripts/nullscript.js
+- ID: "c1f46fb2-8124-4c67-8034-3a4e9f53f3f1"
+  Hint: Script Location
+  Value: "{091855D9-40C0-4368-A557-A4B3BDC39AB7}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170720T125056Z

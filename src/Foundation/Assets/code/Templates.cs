@@ -39,5 +39,29 @@
                 public static readonly ID Theme = new ID("{53B5AF0A-265F-4E60-B2B2-4576CE0BECCF}");
             }
         }
+
+        public struct AssetFolder
+        {
+            public static readonly ID ID = new ID("{4ACE1EA6-EC7D-433C-A491-30B373709F3B}");
+        }
+
+        public struct AssetBase
+        {
+            public struct Fields
+            {
+                public static readonly ID Comment = new ID("{7C944A28-228E-4F11-B751-402F90EC6190}");
+            }
+        }
+        public struct ScriptAsset
+        {
+            public static readonly ID ID = new ID("{A1989802-564A-4680-85F8-D7E397EE4E80}");
+            public struct Fields
+            {
+                public static readonly ID Comment = AssetBase.Fields.Comment;
+                public static readonly ID Src = new ID("{A27DC786-3472-49CE-8398-A490413EC63A}");
+                public static readonly ID Code = new ID("{7DC02058-6DE9-4A18-ACFD-E46131A99D48}");
+                public static readonly ID ScriptLocation = new ID("{C1F46FB2-8124-4C67-8034-3A4E9F53F3F1}");
+            }
+        }
     }
 }

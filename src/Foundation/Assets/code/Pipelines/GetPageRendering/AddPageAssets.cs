@@ -33,6 +33,32 @@
             {
                 AssetRepository.Current.AddInlineScript(scriptHead, ScriptLocation.Head, true);
             }
+            //each page can have an asset folder. This folder contains one ore more scripts or stylesheets.
+            //These assets are added into the page content
+            var assetFolder = item.Children.Where(itm => itm.IsDerived(Templates.AssetFolder.ID)).FirstOrDefault();
+            if (assetFolder != null)
+            {
+                var scripts = assetFolder.Children.Where(itm => itm.IsDerived(Templates.ScriptAsset.ID)).ToList();
+                if (scripts != null)
+                {
+                    scripts.ForEach(itm =>
+                    {
+                        if (itm != null)
+                        {
+                            string inlineScript = itm.Fields[Templates.ScriptAsset.Fields.Code].Value;
+                            if (!string.IsNullOrEmpty(inlineScript))
+                            {
+                                AssetRepository.Current.AddInlineScript(inlineScript, GetScriptLocation(itm), true);
+                            }
+                            string file = itm.Fields[Templates.ScriptAsset.Fields.Src].Value;
+                            if (!string.IsNullOrEmpty(file))
+                            {
+                                AssetRepository.Current.AddScriptFile(file, GetScriptLocation(itm), true);
+                            }
+                        }
+                    });
+                }
+            }
         }
 
         private string GetPageAssetValue(Item item, ID assetField)
@@ -53,6 +79,20 @@
         {
             var inheritedAssetItem = item.Axes.GetAncestors().FirstOrDefault(i => i.IsDerived(Templates.PageAssets.ID) && MainUtil.GetBool(item[Templates.PageAssets.Fields.InheritAssets], false) && string.IsNullOrWhiteSpace(item[assetField]));
             return inheritedAssetItem?[assetField];
+        }
+
+        private ScriptLocation GetScriptLocation(Item scriptItem)
+        {
+            ScriptLocation scriptLocation = ScriptLocation.Head;
+            if (scriptItem != null)
+            {
+                var location = scriptItem.TargetItem(Templates.ScriptAsset.Fields.ScriptLocation);
+                if (location != null)
+                {
+                    scriptLocation = location.ID.Equals(new Sitecore.Data.ID("{091855D9-40C0-4368-A557-A4B3BDC39AB7}")) ? ScriptLocation.Body : ScriptLocation.Head;
+                }
+            }
+            return scriptLocation;
         }
     }
 }
