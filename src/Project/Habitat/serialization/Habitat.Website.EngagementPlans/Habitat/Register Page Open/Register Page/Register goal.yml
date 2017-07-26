@@ -32,6 +32,9 @@ SharedFields:
 - ID: "d2368879-c784-4031-9b79-6a3bf3cb444e"
   Hint: Next state
   Value: "4ccb8761-496e-4573-9bfd-2fdc619cdaad"
+- ID: "e13dcd09-d9bb-43c9-8d7d-438c79d714ca"
+  Hint: Evaluate
+  Value: "{B81C1F4C-8B83-44D9-902F-448463DBCCBC}"
 Languages:
 - Language: en
   Fields:

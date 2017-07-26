@@ -1,0 +1,14 @@
+﻿---
+ID: "b07c4e9d-f5f9-42fc-932f-6eb90499e01f"
+Parent: "6077493b-59cd-442c-84a8-2bb0e868e99f"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Settings/Foundation/Assets/ScriptLocations
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20170721T100142:636362281026273754Z"

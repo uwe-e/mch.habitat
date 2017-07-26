@@ -1,0 +1,21 @@
+﻿---
+ID: "d300414a-651e-432a-a010-1674c83fb1d5"
+Parent: "b07c4e9d-f5f9-42fc-932f-6eb90499e01f"
+Template: "1510d838-1505-4360-bc0a-b48865cd9563"
+Path: /sitecore/system/Settings/Foundation/Assets/ScriptLocations/head
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170721T101404Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826
+    - ID: "d81ad659-83fb-41fe-978a-236a63c292a0"
+      Hint: Name
+      Value: head

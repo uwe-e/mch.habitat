@@ -89,7 +89,7 @@
                 var location = scriptItem.TargetItem(Templates.ScriptAsset.Fields.ScriptLocation);
                 if (location != null)
                 {
-                    scriptLocation = location.ID.Equals(new Sitecore.Data.ID("{091855D9-40C0-4368-A557-A4B3BDC39AB7}")) ? ScriptLocation.Body : ScriptLocation.Head;
+                    scriptLocation = location.ID.Equals(new Sitecore.Data.ID("{751F0BFF-A39C-4242-B089-CA53D605263E}")) ? ScriptLocation.Body : ScriptLocation.Head;
                 }
             }
             return scriptLocation;

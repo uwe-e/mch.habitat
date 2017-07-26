@@ -14,7 +14,7 @@ SharedFields:
     jQuery("h1").after( "<p>text from asset script!</p>" );
 - ID: "c1f46fb2-8124-4c67-8034-3a4e9f53f3f1"
   Hint: Script Location
-  Value: "{091855D9-40C0-4368-A557-A4B3BDC39AB7}"
+  Value: "{751F0BFF-A39C-4242-B089-CA53D605263E}"
 Languages:
 - Language: en
   Versions:

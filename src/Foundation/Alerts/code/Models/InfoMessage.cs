@@ -1,6 +1,9 @@
-﻿namespace Sitecore.Foundation.Alerts.Models
+﻿using System;
+
+namespace Sitecore.Foundation.Alerts.Models
 {
-  public class InfoMessage
+    [Serializable]
+    public class InfoMessage
   {
     public InfoMessage()
     {

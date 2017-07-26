@@ -204,6 +204,12 @@
     <Content Include="fonts\open-sans-v13-latin-regular.woff2" />
     <Content Include="App_Config\Include\Project\z.MCH.config" />
     <Content Include="App_Config\Include\Project\z.Sitecore.config" />
+    <Content Include="App_Config\Include\Project\z.Analytics.Tracking.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="App_Config\Security\domains.config.transform">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\PublishProfiles\Habitat.pubxml" />
     <Content Include="styles\dayfrost.css">
       <DependentUpon>dayfrost.scss</DependentUpon>
@@ -256,7 +262,9 @@
     <Content Include="styles\dayfrost\components\_atoms.scss" />
     <None Include="Views\Web.config" />
     <None Include="web.config" />
-    <None Include="web.config.transform" />
+    <None Include="web.config.transform">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
