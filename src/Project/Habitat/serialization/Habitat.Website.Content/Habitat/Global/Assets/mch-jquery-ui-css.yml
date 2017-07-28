@@ -1,0 +1,25 @@
+﻿---
+ID: "022052b3-72e0-4dde-92d5-e3c474e5033d"
+Parent: "85f9c3a8-fe2d-4355-a7b8-32d88ca8ef36"
+Template: "43705d9e-9039-4e6d-8bb1-9ce45501dd37"
+Path: "/sitecore/content/Habitat/Global/Assets/mch-jquery-ui-css"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "cd784129-580b-4bb9-8770-085243937369"
+  Hint: href
+  Value: "https://lib.messe.ch/ajax/libs/jquery-ui/1.11.4/mch-jquery-ui.css"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170728T052150Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

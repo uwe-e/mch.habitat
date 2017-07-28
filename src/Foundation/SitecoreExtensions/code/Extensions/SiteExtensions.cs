@@ -4,35 +4,44 @@
   using Sitecore;
   using Sitecore.Data;
   using Sitecore.Data.Items;
+    using System.Linq;
   using Sitecore.ExperienceEditor.Utils;
   using Sitecore.ExperienceExplorer.Business.Managers;
   using Sitecore.Sites;
 
-  public static class SiteExtensions
-  {
-    public static Item GetContextItem(this SiteContext site, ID derivedFromTemplateID)
+    public static class SiteExtensions
     {
-      if (site == null)
-        throw new ArgumentNullException(nameof(site));
+        public static Item GetContextItem(this SiteContext site, ID derivedFromTemplateID)
+        {
+            if (site == null)
+                throw new ArgumentNullException(nameof(site));
 
-      var startItem = site.GetStartItem();
-      return startItem?.GetAncestorOrSelfOfTemplate(derivedFromTemplateID);
+            var startItem = site.GetStartItem();
+            return startItem?.GetAncestorOrSelfOfTemplate(derivedFromTemplateID);
+        }
+
+        public static Item GetRootItem(this SiteContext site)
+        {
+            if (site == null)
+                throw new ArgumentNullException(nameof(site));
+
+            return site.Database.GetItem(Context.Site.RootPath);
+        }
+
+        public static Item GetStartItem(this SiteContext site)
+        {
+            if (site == null)
+                throw new ArgumentNullException(nameof(site));
+
+            return site.Database.GetItem(Context.Site.StartPath);
+        }
+        public static Item GetGlobalFolder(this SiteContext site)
+        {
+            if (site == null)
+            {
+                throw new ArgumentNullException(nameof(site));
+            }
+            return site.GetRootItem().Children.Where(itm => itm.IsDerived(Templates.GlobalFolder.ID)).FirstOrDefault();
+        }
     }
-
-    public static Item GetRootItem(this SiteContext site)
-    {
-      if (site == null)
-        throw new ArgumentNullException(nameof(site));
-
-      return site.Database.GetItem(Context.Site.RootPath);
-    }
-
-    public static Item GetStartItem(this SiteContext site)
-    {
-      if (site == null)
-        throw new ArgumentNullException(nameof(site));
-
-      return site.Database.GetItem(Context.Site.StartPath);
-    }
-  }
 }

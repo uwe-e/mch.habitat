@@ -1,0 +1,25 @@
+﻿---
+ID: "1573944d-2423-4578-9e02-dfec529b8e57"
+Parent: "f61ed252-67f0-44f1-9c42-5c259802aae8"
+Template: "00b3960a-f556-41e0-88bc-3742188cb617"
+Path: "/sitecore/content/Habitat/Home/Modules/Feature/Metadata/Assets/twitter-url"
+DB: master
+SharedFields:
+- ID: "7cc20586-e0a0-4427-a2a1-fd56b749d243"
+  Hint: Name
+  Value: "twitter:url"
+- ID: "f3eb04da-1941-44e0-8c34-0ca1ea2c1cc0"
+  Hint: Content
+  Value: "https://uehabitat.entw.intra"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170728T050323Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

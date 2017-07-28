@@ -160,6 +160,7 @@
     <Compile Include="Services\FieldRendererService.cs" />
     <Compile Include="Services\ITrackerService.cs" />
     <Compile Include="Services\TrackerService.cs" />
+    <Compile Include="Templates.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Foundation\Foundation.SitecoreExtensions.PerformanceTweaks.config">

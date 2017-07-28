@@ -1,0 +1,18 @@
+﻿---
+ID: "c9d1f705-c14e-4674-8775-68e02941c268"
+Parent: "43705d9e-9039-4e6d-8bb1-9ce45501dd37"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/Assets/StyleAsset/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170728T051645Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

@@ -16,7 +16,7 @@
             this.AddAssets(PageContext.Current.Item);
         }
 
-        protected void AddAssets(Item item)
+        protected virtual void AddAssets(Item item)
         {
             var styling = this.GetPageAssetValue(item, Templates.PageAssets.Fields.CssCode);
             if (!string.IsNullOrWhiteSpace(styling))
@@ -33,31 +33,73 @@
             {
                 AssetRepository.Current.AddInlineScript(scriptHead, ScriptLocation.Head, true);
             }
+
+            //Add the global assets to the repository
+            AddAssetsToRepository(Sitecore.Context.Site.GetGlobalFolder());
+
             //each page can have an asset folder. This folder contains one ore more scripts or stylesheets.
             //These assets are added into the page content
-            var assetFolder = item.Children.Where(itm => itm.IsDerived(Templates.AssetFolder.ID)).FirstOrDefault();
-            if (assetFolder != null)
+            AddAssetsToRepository(item);
+        }
+
+        private void AddAssetsToRepository(Item item)
+        {
+            if (item != null)
             {
-                var scripts = assetFolder.Children.Where(itm => itm.IsDerived(Templates.ScriptAsset.ID)).ToList();
-                if (scripts != null)
+                var assetFolder = item.Children.Where(itm => itm.IsDerived(Templates.AssetFolder.ID)).FirstOrDefault();
+                if (assetFolder != null)
                 {
-                    scripts.ForEach(itm =>
-                    {
-                        if (itm != null)
-                        {
-                            string inlineScript = itm.Fields[Templates.ScriptAsset.Fields.Code].Value;
-                            if (!string.IsNullOrEmpty(inlineScript))
-                            {
-                                AssetRepository.Current.AddInlineScript(inlineScript, GetScriptLocation(itm), true);
-                            }
-                            string file = itm.Fields[Templates.ScriptAsset.Fields.Src].Value;
-                            if (!string.IsNullOrEmpty(file))
-                            {
-                                AssetRepository.Current.AddScriptFile(file, GetScriptLocation(itm), true);
-                            }
-                        }
-                    });
+                    AddScriptAssets(assetFolder);
+                    AddStyleAssets(assetFolder);
                 }
+            }
+        }
+
+        private void AddScriptAssets(Item folder)
+        {
+            var scripts = folder?.Children.Where(itm => itm.IsDerived(Templates.ScriptAsset.ID)).ToList();
+            if (scripts != null)
+            {
+                scripts.ForEach(itm =>
+                {
+                    if (itm != null)
+                    {
+                        string inlineScript = itm.Fields[Templates.ScriptAsset.Fields.Code].Value;
+                        if (!string.IsNullOrEmpty(inlineScript))
+                        {
+                            AssetRepository.Current.AddInlineScript(inlineScript, GetScriptLocation(itm), true);
+                        }
+                        string file = itm.Fields[Templates.ScriptAsset.Fields.Src].Value;
+                        if (!string.IsNullOrEmpty(file))
+                        {
+                            AssetRepository.Current.AddScriptFile(file, GetScriptLocation(itm), true);
+                        }
+                    }
+                });
+            }
+        }
+
+        private void AddStyleAssets(Item folder)
+        {
+            var styles = folder?.Children.Where(itm => itm.IsDerived(Templates.StyleAsset.ID)).ToList();
+            if (styles != null)
+            {
+                styles.ForEach(itm =>
+                {
+                    if (itm != null)
+                    {
+                        string inlineStyle = itm.Fields[Templates.StyleAsset.Fields.InlineStyle].Value;
+                        if (!string.IsNullOrEmpty(inlineStyle))
+                        {
+                            AssetRepository.Current.AddInlineStyling(inlineStyle, true);
+                        }
+                        string file = itm.Fields[Templates.StyleAsset.Fields.Href].Value;
+                        if (!string.IsNullOrEmpty(file))
+                        {
+                            AssetRepository.Current.AddStylingFile(file, true);
+                        }
+                    }
+                });
             }
         }
 

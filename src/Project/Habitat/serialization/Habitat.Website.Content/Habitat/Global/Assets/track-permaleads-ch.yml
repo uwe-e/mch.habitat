@@ -1,0 +1,18 @@
+﻿---
+ID: "03c7cb83-d6bc-4f0e-8d27-12d2f5f11545"
+Parent: "85f9c3a8-fe2d-4355-a7b8-32d88ca8ef36"
+Template: "a1989802-564a-4680-85f8-d7e397ee4e80"
+Path: "/sitecore/content/Habitat/Global/Assets/track-permaleads-ch"
+DB: master
+SharedFields:
+- ID: "a27dc786-3472-49ce-8398-a490413ec63a"
+  Hint: Src
+  Value: "https://track.permaleads.ch/code/00000000-30bc-40ac-9b5c-6aeeaa9576b8"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170726T112534Z

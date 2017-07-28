@@ -1,0 +1,28 @@
+﻿---
+ID: "eef5779f-54d5-4c9b-8ed7-627b6486580a"
+Parent: "85f9c3a8-fe2d-4355-a7b8-32d88ca8ef36"
+Template: "43705d9e-9039-4e6d-8bb1-9ce45501dd37"
+Path: "/sitecore/content/Habitat/Global/Assets/header-static"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+- ID: "d9ed0c12-d1cf-411d-aacc-aa98d5cb35a8"
+  Hint: Inline Style
+  Value: |
+    .header-static{
+      background-color: #000000;
+    }
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170728T052532Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

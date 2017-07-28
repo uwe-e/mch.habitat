@@ -1,4 +1,5 @@
-﻿@model Sitecore.Feature.Metadata.Models.IMetadata
+﻿@using Sitecore.Feature.Metadata.Services
+@model Sitecore.Feature.Metadata.Models.IMetadata
 
 @if (Model == null)
 {
@@ -25,3 +26,4 @@
 {
     <meta name="@custom.Key" content="@custom.Value"/>
 }
+@RenderMetaElementsService.Current.RenderMetaElements()

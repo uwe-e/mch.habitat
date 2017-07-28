@@ -38,5 +38,39 @@
                 public static readonly ID Keyword = new ID("{7BDBBA5F-C7E6-45C2-82F5-010DED013588}");
             }
         }
+        public struct MetaElements
+        {
+            public static readonly ID ID = new ID("{236064E1-DA06-449A-9000-408F7FA72291}");
+        }
+
+        public struct MetaBase
+        {
+            public static readonly ID ID = new ID("{05C94C7A-BA0D-4AA4-AFE7-36E9F3CD04CB}");
+            public struct Fields
+            {
+                public static readonly ID Comment = Foundation.Assets.Templates.AssetBase.Fields.Comment;
+                public static readonly ID Name = new ID("{7CC20586-E0A0-4427-A2A1-FD56B749D243}");
+            }
+        }
+        public struct Meta
+        {
+            public static readonly ID ID = new ID("{00B3960A-F556-41E0-88BC-3742188CB617}");
+            public struct Fields
+            {
+                public static readonly ID Comment = MetaBase.Fields.Comment;
+                public static readonly ID Name = MetaBase.Fields.Name;
+                public static readonly ID Content = new ID("{F3EB04DA-1941-44E0-8C34-0CA1EA2C1CC0}");
+            }
+        }
+        public struct MetaVersioned
+        {
+            public static readonly ID ID = new ID("{8F470B12-1504-4602-823C-29FC65D47469}");
+            public struct Fields
+            {
+                public static readonly ID Comment = MetaBase.Fields.Comment;
+                public static readonly ID Name = MetaBase.Fields.Name;
+                public static readonly ID Content = new ID("{2708F41E-8028-43B0-A496-A78B623DA7DD}");
+            }
+        }
     }
 }

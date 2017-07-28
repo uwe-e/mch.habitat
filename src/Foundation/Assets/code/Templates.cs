@@ -63,5 +63,15 @@
                 public static readonly ID ScriptLocation = new ID("{C1F46FB2-8124-4C67-8034-3A4E9F53F3F1}");
             }
         }
+        public struct StyleAsset
+        {
+            public static readonly ID ID = new ID("{43705D9E-9039-4E6D-8BB1-9CE45501DD37}");
+            public struct Fields
+            {
+                public static readonly ID Comment = AssetBase.Fields.Comment;
+                public static readonly ID Href = new ID("{CD784129-580B-4BB9-8770-085243937369}");
+                public static readonly ID InlineStyle = new ID("{D9ED0C12-D1CF-411D-AACC-AA98D5CB35A8}");
+            }
+        }
     }
 }
