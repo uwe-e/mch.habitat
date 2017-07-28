@@ -73,5 +73,22 @@
                 public static readonly ID InlineStyle = new ID("{D9ED0C12-D1CF-411D-AACC-AA98D5CB35A8}");
             }
         }
+        public struct RawAssetBase
+        {
+            public static readonly ID ID = new ID("{AABACA43-875A-4831-8A3C-5156AD465F36}");
+            public struct Fields
+            {
+                public static readonly ID Text = new ID("{86C69004-9D89-4777-8A14-249AC8A72F5D}");
+            }
+        }
+        public struct PlainTextAsset
+        {
+            public static readonly ID ID = new ID("{410A5B40-69BE-4BCD-A11B-7985047458B6}");
+            public struct Fields
+            {
+                public static readonly ID Comment = AssetBase.Fields.Comment;
+                public static readonly ID Text = RawAssetBase.Fields.Text;
+            }
+        } 
     }
 }

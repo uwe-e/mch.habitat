@@ -152,6 +152,11 @@
             return this.AddAsset(styling, ScriptLocation.Head, preventAddToCache, AssetType.Css, AssetContentType.Inline);
         }
 
+        public Asset AddPlainText(string plainText, bool preventAddToCache = false)
+        {
+            return this.AddAsset(plainText, ScriptLocation.Head, preventAddToCache, AssetType.Raw, AssetContentType.Inline);
+        }
+
         internal Asset CreateFromConfiguration(XmlNode node)
         {
             var assetTypeString = XmlUtil.GetAttribute("type", node, null);

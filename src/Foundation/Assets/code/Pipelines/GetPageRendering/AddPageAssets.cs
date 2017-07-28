@@ -51,6 +51,7 @@
                 {
                     AddScriptAssets(assetFolder);
                     AddStyleAssets(assetFolder);
+                    AddPlainTextAssets(assetFolder);
                 }
             }
         }
@@ -103,6 +104,24 @@
             }
         }
 
+        private void AddPlainTextAssets(Item folder)
+        {
+            var rawAssets = folder?.Children.Where(itm => itm.IsDerived(Templates.PlainTextAsset.ID)).ToList();
+            if (rawAssets != null)
+            {
+                rawAssets.ForEach(itm =>
+                {
+                    if (itm != null)
+                    {
+                        string rawText = itm.Fields[Templates.PlainTextAsset.Fields.Text].Value;
+                        if (!string.IsNullOrEmpty(rawText))
+                        {
+                            AssetRepository.Current.AddPlainText(rawText, true);
+                        }
+                    }
+                });
+            }
+        }
         private string GetPageAssetValue(Item item, ID assetField)
         {
             if (item.IsDerived(Templates.PageAssets.ID))
