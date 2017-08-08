@@ -1,0 +1,28 @@
+﻿---
+ID: "63bd82bc-6f2f-4ab3-bcee-d796054bdbbf"
+Parent: "10164a0a-59bf-4f58-911d-389b10ed1b90"
+Template: "4a8822cc-b418-4452-ab0f-8bb6df2f2114"
+Path: /sitecore/content/Grandbasel/Home
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+            s:l="{BBF0A7C7-3CF3-48DC-84DB-1D0C7D1B7BC3}" />
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170728T091856Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

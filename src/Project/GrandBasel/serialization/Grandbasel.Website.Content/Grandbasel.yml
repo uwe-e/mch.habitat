@@ -1,0 +1,26 @@
+﻿---
+ID: "10164a0a-59bf-4f58-911d-389b10ed1b90"
+Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
+Template: "0643d9d4-f30b-4b07-91d0-289cc324c9cf"
+Path: /sitecore/content/Grandbasel
+DB: master
+SharedFields:
+- ID: "5f115b6d-6052-4c7e-b442-ae923a7e9bd2"
+  Hint: SupportedLanguages
+  Type: Multilist
+  Value: "{FF949521-C7B4-416D-86AF-D09C1120F5E1}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1099
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170728T091835Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826
