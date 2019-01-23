@@ -1,0 +1,22 @@
+﻿---
+ID: "d761e210-b138-4a43-85b8-2ceb98c90f45"
+Parent: "1cb324ff-dcb8-4d0d-944d-a1e0c4afd5ac"
+Template: "1cb324ff-dcb8-4d0d-944d-a1e0c4afd5ac"
+Path: /sitecore/templates/Project/Common/Content Types/Notifications/Simple Toastr/__Standard Values
+DB: master
+SharedFields:
+- ID: "345027c6-8fc9-4e71-a35d-5172228cf3a4"
+  Hint: Type
+  Value: "{C06CBD86-C014-4F4F-8D0D-DF32992BC32B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171113T111241Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

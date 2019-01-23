@@ -1,0 +1,18 @@
+﻿---
+ID: "212903cc-c2e6-4d03-bc6f-eb0d2363ff6c"
+Parent: "a99c6a5b-603c-4a65-a26c-1d0594624a78"
+Template: "ac7394d5-2aa7-4fdb-a7d8-b1b87f9fa661"
+Path: /sitecore/content/Grandbasel/Global/Links/Footer
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170907T105153Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

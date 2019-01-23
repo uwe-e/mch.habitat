@@ -14,7 +14,7 @@
 }
 
 
-<div class="thumbnail @(string.IsNullOrEmpty(backgroundClass) ? "" : "thumbnail-focus " + backgroundClass) m-b-1">
+<div class="thumbnail @(string.IsNullOrEmpty(backgroundClass) ? "" : "thumbnail-focus " + backgroundClass) @Model.Rendering.GetCustomStyle() m-b-1">
   <header class="thumbnail-header">
     @if (Model.Item.FieldHasValue(Templates.TeaserContent.Fields.Label) || Sitecore.Context.PageMode.IsExperienceEditor)
     {

@@ -1,0 +1,64 @@
+﻿---
+ID: "341d2f08-0da3-429a-8345-8b021523d42e"
+Parent: "63bd82bc-6f2f-4ab3-bcee-d796054bdbbf"
+Template: "76afcdee-e6f1-4a4d-9cc2-35ce67095582"
+Path: /sitecore/content/Grandbasel/Home/Search
+DB: master
+SharedFields:
+- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
+  Hint: ShowInNavigation
+  Type: Checkbox
+  Value: 0
+- ID: "68016087-aa00-45d6-922a-678475c50d4a"
+  Hint: ShowChildren
+  Type: Checkbox
+  Value: 1
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 900
+- ID: "cd904125-3ae5-4709-9e6d-71473c5d5007"
+  Hint: Root
+  Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{363EE787-2748-4D7D-BB29-E879478B99D6}"
+          s:ds=""
+          s:par="ResultsOnPage=10&amp;PagesToShow=5"
+          s:ph="/page-layout/section-narrow/col-huge" />
+        <r
+          uid="{C5094B6A-F153-485D-B488-38A72119CD01}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+          s:par="Background&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames=1&amp;Class&amp;Additional Class=searchresults"
+          s:ph="/page-layout/section-narrow" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Suche
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170921T082432Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826
+    - ID: "80e30dd8-8021-45f5-9fe1-23d2702cc206"
+      Hint: SearchBoxTitle
+      Value: Suchen nach
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: 

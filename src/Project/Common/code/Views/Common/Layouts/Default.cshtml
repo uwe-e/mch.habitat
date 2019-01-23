@@ -1,0 +1,40 @@
+﻿@using System.Globalization
+@using Sitecore.Foundation.Assets
+@using Sitecore.Foundation.Assets.Models
+@using Sitecore.Foundation.Assets.Services
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc.Analytics.Extensions
+@inherits WebViewPage
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html lang="@Sitecore.Context.Item.Language.Name" xml:lang="@Sitecore.Context.Item.Language.Name">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1" />
+    @if (!Sitecore.Context.PageMode.IsExperienceEditor)
+    {
+        @Html.Sitecore().Placeholder("head")
+    }
+    @RenderAssetsService.Current.RenderScript(ScriptLocation.Head)
+    @RenderAssetsService.Current.RenderStyles()
+    @Html.Sitecore().VisitorIdentification()
+</head>
+<body dir="@(CultureInfo.CurrentCulture.TextInfo.IsRightToLeft ? "rtl" : "ltr")" class="header-static @(Sitecore.Context.PageMode.IsNormal ? "" : (Sitecore.Context.PageMode.IsExperienceEditor ? "pagemode-edit" : "pagemode-preview"))">
+    <div id="main-container">
+        <header class="header-static pageheader">
+            @Html.Sitecore().Placeholder("header")
+        </header>
+        <main role="main">
+            @Html.Sitecore().Placeholder("page-layout")
+        </main>
+        <footer class="pagefooter">
+            @Html.Sitecore().Placeholder("footer")
+        </footer>
+
+        @Html.Sitecore().Placeholder("page-sidebar")
+    </div>
+    @RenderAssetsService.Current.RenderScript(ScriptLocation.Body)
+</body>
+</html>

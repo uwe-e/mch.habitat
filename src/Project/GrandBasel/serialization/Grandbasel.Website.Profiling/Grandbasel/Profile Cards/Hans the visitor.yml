@@ -1,0 +1,38 @@
+﻿---
+ID: "927d4db6-7fa3-4be1-8a9c-29940e3592a2"
+Parent: "6ed1c962-d225-4b6a-86d0-176705f8a6b2"
+Template: "448c4d57-f0f1-4278-8ab8-93db46c94f1b"
+Path: /sitecore/system/Marketing Control Panel/Profiles/Grandbasel/Profile Cards/Hans the visitor
+DB: master
+SharedFields:
+- ID: "85970ab7-22ea-4206-be86-c0167178860b"
+  Hint: Profile Card Value
+  Value: |
+    <tracking>
+      <profile id="{D0611757-B7A0-4E56-B1A3-0C6221EC20A1}" name="Powertage">
+        <key name="Visitor" value="5" />
+        <key name="Exhibitor" value="1" />
+        <key name="Press Needs" value="2" />
+      </profile>
+      <profile id="{D815B6CD-CA42-4542-AF7C-C342EF06B5D6}" name="Grandbasel">
+        <key name="Exhibitor" value="1" />
+        <key name="Press Needs" value="2" />
+        <key name="Visitor" value="5" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Fields:
+  - ID: "a26fc256-1db0-44aa-ba3d-1c830bf882a2"
+    Hint: Name
+    Value: Hans the visitor
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171002T091050Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

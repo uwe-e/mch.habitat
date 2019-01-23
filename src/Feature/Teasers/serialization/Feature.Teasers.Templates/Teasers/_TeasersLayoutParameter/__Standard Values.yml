@@ -1,0 +1,18 @@
+﻿---
+ID: "3a2a7fee-f7a2-438d-9fe6-2fba11ecccbb"
+Parent: "7f272d4f-8f02-4090-aa33-bcfbc23dfaa1"
+Template: "7f272d4f-8f02-4090-aa33-bcfbc23dfaa1"
+Path: /sitecore/templates/Feature/Teasers/_TeasersLayoutParameter/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170926T102000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

@@ -1,56 +1,79 @@
 ﻿namespace Sitecore.Foundation.Theming.Extensions
 {
-  using System.Web.Mvc;
-  using Sitecore.Data;
-  using Sitecore.Foundation.SitecoreExtensions.Extensions;
-  using Sitecore.Foundation.Theming.Extensions.Controls;
-  using Sitecore.Mvc.Presentation;
+    using System.Web.Mvc;
+    using Sitecore.Data;
+    using Sitecore.Foundation.SitecoreExtensions.Extensions;
+    using Sitecore.Foundation.Theming.Extensions.Controls;
+    using Sitecore.Mvc.Presentation;
+    using Sitecore.Text;
 
-  public static class RenderingExtensions
-  {
-    public static CarouselOptions GetCarouselOptions([NotNull] this Rendering rendering)
+    public static class RenderingExtensions
     {
-      return new CarouselOptions
-             {
-               ItemsShown = rendering.GetIntegerParameter(Constants.CarouselLayoutParameters.ItemsShown, 3),
-               AutoPlay = rendering.GetIntegerParameter(Constants.CarouselLayoutParameters.Autoplay, 1) == 1,
-               ShowNavigation = rendering.GetIntegerParameter(Constants.CarouselLayoutParameters.ShowNavigation) == 1
-             };
-    }
+        public static CarouselOptions GetCarouselOptions([NotNull] this Rendering rendering)
+        {
+            return new CarouselOptions
+            {
+                ItemsShown = rendering.GetIntegerParameter(Constants.CarouselLayoutParameters.ItemsShown, 3),
+                AutoPlay = rendering.GetIntegerParameter(Constants.CarouselLayoutParameters.Autoplay, 1) == 1,
+                ShowNavigation = rendering.GetIntegerParameter(Constants.CarouselLayoutParameters.ShowNavigation) == 1
+            };
+        }
 
-    public static string GetBackgroundClass([NotNull] this Rendering rendering)
-    {
-      var id = MainUtil.GetID(rendering.Parameters[Constants.BackgroundLayoutParameters.Background] ?? "", null);
-      if (ID.IsNullOrEmpty(id))
-        return "";
-      var item = rendering.RenderingItem.Database.GetItem(id);
-      return item?[Templates.Style.Fields.Class] ?? "";
-    }
+        public static string GetCustomStyle([NotNull] this Rendering rendering)
+        {
+            ListString cssClasses = new ListString(' ');
+            var id = MainUtil.GetID(rendering.Parameters[Constants.CustomStyleParameters.CustomStyleClass] ?? "", null);
+            if (!ID.IsNullOrEmpty(id))
+            {
+                var item = rendering.RenderingItem.Database.GetItem(id);
+                cssClasses.Add(item?[Templates.Style.Fields.Class] ?? "");
+            }
+            var additionalClasses = GetAdditionalCssClass(rendering);
+            if (!string.IsNullOrEmpty(additionalClasses))
+            {
+                cssClasses.Add(additionalClasses);
+            }
+            return cssClasses.ToString();
+        }
 
-    public static bool IsFixedHeight([NotNull] this Rendering rendering)
-    {
-      var isFixed = MainUtil.GetBool(rendering.Parameters[Constants.IsFixedHeightLayoutParameters.FixedHeight] ?? "", false);
-      return isFixed;
-    }
+        public static string GetAdditionalCssClass([NotNull] this Rendering rendering)
+        {
+            return rendering.Parameters[Constants.CustomStyleParameters.AdditionalClass] ?? string.Empty;
+        }
 
-    public static int GetHeight([NotNull] this Rendering rendering)
-    {
-      return MainUtil.GetInt(rendering.Parameters[Constants.IsFixedHeightLayoutParameters.Height] ?? "", 0);
-    }
+        public static string GetBackgroundClass([NotNull] this Rendering rendering)
+        {
+            var id = MainUtil.GetID(rendering.Parameters[Constants.BackgroundLayoutParameters.Background] ?? "", null);
+            if (ID.IsNullOrEmpty(id))
+                return "";
+            var item = rendering.RenderingItem.Database.GetItem(id);
+            return item?[Templates.Style.Fields.Class] ?? "";
+        }
 
-    public static string GetContainerClass([NotNull] this Rendering rendering)
-    {
-      return rendering.IsContainerFluid() ? "container-fluid" : "container";
-    }
+        public static bool IsFixedHeight([NotNull] this Rendering rendering)
+        {
+            var isFixed = MainUtil.GetBool(rendering.Parameters[Constants.IsFixedHeightLayoutParameters.FixedHeight] ?? "", false);
+            return isFixed;
+        }
 
-    public static bool IsContainerFluid([NotNull] this Rendering rendering)
-    {
-      return MainUtil.GetBool(rendering.Parameters[Constants.HasContainerLayoutParameters.IsFluid], false);
-    }
+        public static int GetHeight([NotNull] this Rendering rendering)
+        {
+            return MainUtil.GetInt(rendering.Parameters[Constants.IsFixedHeightLayoutParameters.Height] ?? "", 0);
+        }
 
-    public static BackgroundRendering RenderBackground([NotNull] this Rendering rendering, HtmlHelper helper)
-    {
-      return new BackgroundRendering(helper.ViewContext.Writer, rendering.GetBackgroundClass());
+        public static string GetContainerClass([NotNull] this Rendering rendering)
+        {
+            return rendering.IsContainerFluid() ? "container-fluid" : "container";
+        }
+
+        public static bool IsContainerFluid([NotNull] this Rendering rendering)
+        {
+            return MainUtil.GetBool(rendering.Parameters[Constants.HasContainerLayoutParameters.IsFluid], false);
+        }
+
+        public static BackgroundRendering RenderBackground([NotNull] this Rendering rendering, HtmlHelper helper)
+        {
+            return new BackgroundRendering(helper.ViewContext.Writer, rendering.GetBackgroundClass());
+        }
     }
-  }
 }

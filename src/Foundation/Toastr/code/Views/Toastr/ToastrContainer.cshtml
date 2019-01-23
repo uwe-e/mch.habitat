@@ -1,0 +1,19 @@
+﻿@using Sitecore
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Foundation.Theming.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+
+@{
+    ViewBag.Title = "ToastrContainer";
+    var el = Model?.Item;
+}
+@if (Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <div>
+        <h2>ToastrContainer</h2>
+    </div>
+    @Html.Sitecore().DynamicPlaceholder("toastr-container", Model.Rendering.GetUseStaticPlaceholderNames())
+}
+
+

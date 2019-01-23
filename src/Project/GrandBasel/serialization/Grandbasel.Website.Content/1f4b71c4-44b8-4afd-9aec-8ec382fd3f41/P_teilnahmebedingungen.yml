@@ -1,0 +1,36 @@
+﻿---
+ID: "03539373-640f-4f42-a290-32b4daf89bcb"
+Parent: "1f4b71c4-44b8-4afd-9aec-8ec382fd3f41"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: /sitecore/content/Grandbasel/Global/Teasers/pc_anmelden/P_teilnahmebedingungen
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+- ID: "e8ab122c-6f54-4d4e-aec6-f81addc558fc"
+  Hint: TeaserLink
+  Value: |
+    <link text="Teilnahmebedingungen lesen" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{D53A7BDF-2ADC-420A-8CB2-52832BDEA8B7}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{D064E6E0-86C6-4623-AB7C-90AF29CF263F}" alt="" height="200" width="300" hspace="" vspace=""></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170915T125538Z
+    - ID: "3f7e7e3a-4e8e-4639-b079-fc5aeff172f5"
+      Hint: Teaser Label
+      Value: Teilnahmebedingungen lesen
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: Teilnahmebedingungen
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

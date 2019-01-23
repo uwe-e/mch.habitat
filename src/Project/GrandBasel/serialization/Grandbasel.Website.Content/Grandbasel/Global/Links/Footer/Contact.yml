@@ -1,0 +1,25 @@
+﻿---
+ID: "4ae7d3fa-abbb-4e33-9df8-597178bcc5a3"
+Parent: "212903cc-c2e6-4d03-bc6f-eb0d2363ff6c"
+Template: "390333c8-751b-4332-84a3-6360b969a19f"
+Path: /sitecore/content/Grandbasel/Global/Links/Footer/Contact
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Contact
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170907T105217Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826
+    - ID: "fe71c30e-f07d-4052-8594-c3028cd76e1f"
+      Hint: Link
+      Value: |
+        <link text="Contact" linktype="external" url="https://www.powertage.ch/de-CH/ueber-die-powertage/kontakt.aspx" anchor="" title="Contact Powertage" target="" />

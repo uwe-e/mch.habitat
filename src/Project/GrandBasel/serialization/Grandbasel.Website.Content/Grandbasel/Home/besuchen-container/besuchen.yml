@@ -1,0 +1,100 @@
+﻿---
+ID: "8b3f43b3-8118-4bc7-86e2-0981ac0cba86"
+Parent: "34229d4b-3dd6-436d-b99b-95e0feb3aa77"
+Template: "9d016889-9cc2-4719-8fa2-6890fba3f185"
+Path: "/sitecore/content/Grandbasel/Home/besuchen-container/besuchen"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <p
+              uid="{79ABD04B-989A-4AB7-B531-88BFA30C6C73}"
+              p:before="*"
+              s:key="/page-layout/section-narrow/col-wide-1_c5f455db-7d28-4af5-9cfe-e7ea4cc48a76/col-narrow-2_5776eae9-e1d2-4653-acb6-8d2b73894fd9"
+              s:md="/sitecore/layout/Placeholder Settings/Project/Common/Columns/col-wide-1" />
+            <r
+              uid="{1974846A-CE83-4740-99BA-C12C70B56D7B}"
+              p:after="p[@uid='{79ABD04B-989A-4AB7-B531-88BFA30C6C73}']"
+              s:ds="{1BFEB8F9-F728-4DB6-8FAF-76FFEEC1A1B1}"
+              s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
+              s:ph="/page-layout/section-narrow/col-wide-1_c5f455db-7d28-4af5-9cfe-e7ea4cc48a76/col-narrow-3_5776eae9-e1d2-4653-acb6-8d2b73894fd9" />
+            <r
+              uid="{23E1F914-81FF-42D9-881C-1C964C6C2D6E}"
+              p:after="r[@uid='{1974846A-CE83-4740-99BA-C12C70B56D7B}']"
+              s:ds="{801D72E8-8D5F-4977-894B-A99E6A3E5E6C}"
+              s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
+              s:ph="/page-layout/section-narrow/col-wide-1_c5f455db-7d28-4af5-9cfe-e7ea4cc48a76/col-narrow-1_5776eae9-e1d2-4653-acb6-8d2b73894fd9" />
+            <r
+              uid="{C80735E4-23F9-47AE-BC16-D5324A4B8AD7}"
+              p:after="r[@uid='{23E1F914-81FF-42D9-881C-1C964C6C2D6E}']"
+              s:ds="{506735B7-8085-498C-B2B0-3079BE8DEDB6}"
+              s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
+              s:ph="/page-layout/section-narrow/col-wide-1_c5f455db-7d28-4af5-9cfe-e7ea4cc48a76/col-narrow-2_5776eae9-e1d2-4653-acb6-8d2b73894fd9" />
+            <r
+              uid="{CC35B2DF-1C96-4838-B11E-719AA1C16E0A}"
+              p:after="r[@uid='{C80735E4-23F9-47AE-BC16-D5324A4B8AD7}']"
+              s:ds="{BD0D41B1-223E-4737-8F68-A74A317E7CA7}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:ph="/page-layout/section-narrow/col-wide-1_c5f455db-7d28-4af5-9cfe-e7ea4cc48a76" />
+            <r
+              uid="{2197DF9D-9C36-486E-9955-7FFA69D10792}"
+              p:after="r[@uid='{CC35B2DF-1C96-4838-B11E-719AA1C16E0A}']"
+              s:ds="{95ACC105-5411-4781-8245-705A206ACB1C}"
+              s:id="{781C6B36-4B02-46EA-8ADC-B92A11877F10}"
+              s:ph="/page-layout/section-narrow/col-wide-1_c5f455db-7d28-4af5-9cfe-e7ea4cc48a76" />
+            <r
+              uid="{5776EAE9-E1D2-4653-ACB6-8D2B73894FD9}"
+              p:after="r[@uid='{2197DF9D-9C36-486E-9955-7FFA69D10792}']"
+              s:id="{7074CA39-734D-4953-A3D5-B7D09C37CE3B}"
+              s:ph="/page-layout/section-narrow/col-wide-1_c5f455db-7d28-4af5-9cfe-e7ea4cc48a76" />
+            <r
+              uid="{C5F455DB-7D28-4AF5-9CFE-E7EA4CC48A76}"
+              p:after="r[@uid='{5776EAE9-E1D2-4653-ACB6-8D2B73894FD9}']"
+              s:ds="{BD0D41B1-223E-4737-8F68-A74A317E7CA7}"
+              s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
+              s:par="UseStaticPlaceholderNames"
+              s:ph="/page-layout/section-narrow" />
+          </d>
+        </r>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Besuchen
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170901T083449Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: 
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: 
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Besucherbereich
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <div class="styled-h1">
+        <h1>
+        <span class="CustomStyle1">Netzwerkplattform</span> <span class="CustomStyle2">der Schweizer</span> <span class="CustomStyle3">Stromwirtschaft</span></h1>
+        <p>An den Powertagen trifft sich die Schweizer Stromwirtschaft.&nbsp; Die Veranstaltung überzeugt durch ihren Mix aus Fachvorträgen, Austausch und Firmenpräsentationen und bietet einen umfassenden Überblick über technische Trends, politische Weichenstellungen und die aktuellen unternehmerischen Herausforderungen. Wir laden Sie herzlich ein, am Dialog teilzunehmen, um Innovationen kennenzulernen und gemeinsam die neue Energiewelt voranzutreiben. Wir freuen uns auf Ihren Besuch.</p>
+        <p>Die nächsten Powertage finden von Dienstag, <strong>5. bis</strong> Donnerstag, <strong>7. Juni 2018</strong> in der Messe Zürich statt.</p>
+        </div>

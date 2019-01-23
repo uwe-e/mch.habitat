@@ -1,0 +1,31 @@
+﻿---
+ID: "b2356e37-f74e-42c0-9689-acd448b419a0"
+Parent: "cdde773d-fe22-4dbb-9326-3651ec1070c8"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: "/sitecore/content/Grandbasel/Home/ueber-die-powertage-container/ueber-die-powertage/_Local/veranstaltungskonzept-einleitung"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "13d97a52-7c4e-407c-960d-fadde8a3c1b1"
+      Hint: TeaserSummary
+      Value: Das Veranstaltungskonzept ist auf den Eckpfeilern Forum, Networking und Ausstellung aufgebaut. Die konzeptionelle Entwicklung deckt die Bedürfnisse der Zielgruppen noch besser ab und festigt die Bedeutung als Treffpunkt für die Schweizer Stromwirtschaft.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170911T063525Z
+    - ID: "3f7e7e3a-4e8e-4639-b079-fc5aeff172f5"
+      Hint: Teaser Label
+      Value: 
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: Das Veranstaltungskonzept
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

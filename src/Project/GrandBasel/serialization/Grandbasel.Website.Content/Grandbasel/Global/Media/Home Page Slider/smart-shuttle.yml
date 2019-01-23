@@ -1,0 +1,36 @@
+﻿---
+ID: "120ee573-311a-4bf5-b6de-a9409e18a68f"
+Parent: "c8a83114-a9ff-43d3-876c-e664efaccba7"
+Template: "f0369e1a-9030-4a05-a09c-ef09b664ed27"
+Path: "/sitecore/content/Grandbasel/Global/Media/Home Page Slider/smart-shuttle"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171222T080606Z
+    - ID: "302c9f8d-f703-4f76-a4ab-73d222648232"
+      Hint: MediaDescription
+      Value: |
+        <p><strong>Smart Suisse</strong></p>
+        <p>Am Mittwoch, 11. April 2018 findet der SmartSuisse Strategiekongress zum zweiten Mal im Congress Center Basel statt.</p>
+        <p><strong>Intelligente L&ouml;sungen f&uuml;r eine nachhaltige Stadtentwicklung in der Schweiz und international</strong></p>
+        <p>
+        Einzigartig sind der Mix zwischen Strategie und konkreten L&ouml;sungen, sowie der branchen&uuml;bergreifende Ansatz mit dem Ziel,<br />
+        den &ouml;ffentlichen Sektor mit der Wirtschaft und Wissenschaft st&auml;rker zu vernetzen.<br />
+        SmartSuisse richtet sich an alle Akteure, die das urbane Leben von morgen aktiv und nachhaltig mitgestalten wollen.</p>
+        <p><a href="~/link.aspx?_id=38F9678C2FD248C4A2503EDEF7C63338&amp;_z=z" class="btn btn-default">Nutzen Sie den Powertage Rabatt</a></p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826
+    - ID: "63dda48b-b0cb-45a7-9a1b-b26ddb41009b"
+      Hint: MediaTitle
+      Value: "Das könnte Sie interessieren!"
+    - ID: "9f51dead-ad6e-41c2-9759-7be17eb474a4"
+      Hint: MediaImage
+      Value: |
+        <image mediaid="{8EDAC09E-582E-454F-B2A2-FC2AD7788A5A}" />

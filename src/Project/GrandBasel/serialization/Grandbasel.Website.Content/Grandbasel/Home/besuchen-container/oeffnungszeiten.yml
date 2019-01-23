@@ -1,0 +1,71 @@
+﻿---
+ID: "beff50cf-2ee0-454c-a820-8896636d56f9"
+Parent: "34229d4b-3dd6-436d-b99b-95e0feb3aa77"
+Template: "9d016889-9cc2-4719-8fa2-6890fba3f185"
+Path: "/sitecore/content/Grandbasel/Home/besuchen-container/oeffnungszeiten"
+DB: master
+SharedFields:
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{D815B6CD-CA42-4542-AF7C-C342EF06B5D6}"
+        name="Grandbasel"
+        presets="hans the visitor|100||">
+        <key
+          name="Exhibitor"
+          value="1" />
+        <key
+          name="Press Needs"
+          value="2" />
+        <key
+          name="Visitor"
+          value="5" />
+      </profile>
+    </tracking>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Öffnungszeiten
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170918T075753Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: 
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <div class="styled-h1">
+        <h1>
+        <span class="CustomStyle1">Wann Sie</span> <span class="CustomStyle2">die Powertage</span> <span class="CustomStyle3">besuchen können</span></h1>
+        <div>
+        <h3>Dienstag, 5. bis Donnerstag, 7. Juni 2018</h3>
+        <p><strong>Fachforum, Halle 7</strong><br />
+        T&uuml;r&ouml;ffnung/Registration: t&auml;glich ab 8.00 Uhr<br />
+        Dienstag bis Donnerstag: 9.00 - 11.30 Uhr<br />
+        <br />
+        <strong>Ausstellung, Hallen 5 und 6</strong><br />
+        Dienstag bis Donnerstag: 10.00 - 17.00 Uhr</p>
+        <p><strong>Durchf&uuml;hrungsort</strong><br />
+        Messe Z&uuml;rich<br />
+        Wallisellenstrasse 49<br />
+        CH-8050 Z&uuml;rich<br />
+        <br />
+        <br />
+        </p>
+        </div>
+        </div>

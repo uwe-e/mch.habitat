@@ -1,0 +1,100 @@
+﻿---
+ID: "2b0b066f-ea7a-49bf-87b5-65b74658247f"
+Parent: "e86c66ea-36c6-466a-940f-9bf268626a31"
+Template: "9d016889-9cc2-4719-8fa2-6890fba3f185"
+Path: "/sitecore/content/Grandbasel/Home/ueber-die-powertage-container/powertage-in-zahlen"
+DB: master
+SharedFields:
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{D815B6CD-CA42-4542-AF7C-C342EF06B5D6}"
+        name="Grandbasel"
+        presets="adam the exhibitor|50||camille the reporter|50||">
+        <key
+          name="Exhibitor"
+          value="3.5" />
+        <key
+          name="Press Needs"
+          value="3.5" />
+        <key
+          name="Visitor"
+          value="2" />
+      </profile>
+    </tracking>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B8F64886-C73C-41D9-85BE-B92C5ED002C5}"
+              p:before="*"
+              s:ds="{0972BE50-D06E-4039-9D8D-FE8BD0224423}"
+              s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
+              s:par="Background&amp;Class=%7BFE60919C-F5BB-4362-BBA1-8AB0FC42908D%7D&amp;Additional Class"
+              s:ph="/page-layout/section-narrow/col-wide-1_db9765be-92bf-4daa-be2a-2b3b6a5713a4" />
+            <r
+              uid="{2B5F7E8F-791A-4FC3-BB33-D8D0525D3448}"
+              s:par="UseStaticPlaceholderNames=1" />
+            <r
+              uid="{71737E3B-7927-420D-ADAC-627C0995B6C1}"
+              s:par="UseStaticPlaceholderNames=1" />
+            <r
+              uid="{71161BA6-CFBD-4284-BD9B-EE04FC30790F}"
+              s:par="UseStaticPlaceholderNames=1" />
+            <r
+              uid="{5B49D6A4-DEFE-44CA-BA0A-C0D727F51997}"
+              p:after="r[@uid='{B6731C73-73D8-4433-8B0A-18A9A6D04DA8}']"
+              s:ds="{8B8BD7E0-E8D6-4BC3-AE17-A3E0D06C5AAB}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:par=""
+              s:ph="/page-layout/section-narrow" />
+            <r
+              uid="{DB9765BE-92BF-4DAA-BE2A-2B3B6A5713A4}"
+              p:after="r[@uid='{5B49D6A4-DEFE-44CA-BA0A-C0D727F51997}']"
+              s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
+              s:ph="/page-layout/section-narrow" />
+            <r
+              uid="{47E091FE-C572-412F-8840-FF25C7F2883C}"
+              s:par="UseStaticPlaceholderNames=1" />
+          </d>
+        </r>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: "powertage-in-zahlen"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170914T095450Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: 
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: "powertage-in-zahlen"
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <div class="styled-h1">
+        <h1>
+        <span class="CustomStyle1">Entscheidungs-</span> <span class="CustomStyle2">grundlagen</span> <span class="CustomStyle3">auf einen Blick</span></h1>
+        <p>Nachfolgend haben wir Ihnen die wichtigsten Zahlen aus der unabhängigen Aussteller- und Besucherumfrage 2016 zusammengestellt.</p>
+        </div>

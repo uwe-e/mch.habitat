@@ -1,0 +1,23 @@
+﻿---
+ID: "ad3cfc5f-3480-4fab-a370-06856d9bd3ae"
+Parent: "d815b6cd-ca42-4542-af7c-c342ef06b5d6"
+Template: "0771b0a2-5bcf-4f87-91de-13474618b6bf"
+Path: /sitecore/system/Marketing Control Panel/Profiles/Grandbasel/Pattern Cards
+DB: master
+BranchID: "07624a03-bb2f-45d8-abe1-15e2b1705ff3"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171002T085922Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

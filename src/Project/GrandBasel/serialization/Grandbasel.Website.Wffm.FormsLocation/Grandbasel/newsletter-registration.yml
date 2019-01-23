@@ -1,0 +1,118 @@
+﻿---
+ID: "126de4f3-a71d-4c3a-864b-9cb31589f59a"
+Parent: "beaba23e-a4ee-4b72-9abd-b18c411b6ac6"
+Template: "ffb1da32-2764-47db-83b0-95b843546a7e"
+Path: "/sitecore/system/Modules/Web Forms for Marketers/Grandbasel/newsletter-registration"
+DB: master
+SharedFields:
+- ID: "46fb324a-9741-43bd-a0c9-5081a39d40aa"
+  Hint: Show Introduction
+  Type: Checkbox
+  Value: 1
+- ID: "a42052f7-6c18-424a-a2a1-7a72054cb1a6"
+  Hint: Show Title
+  Type: Checkbox
+  Value: 1
+- ID: "a7f779b9-5fcf-45cc-866b-7c973f5c4fac"
+  Hint: Save Actions
+  Value: |
+    <?xml version="1.0" encoding="utf-16"?>
+    <li xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <g id="{E5EABB1F-40BC-45BB-8D87-3B6C239B521B}" displayName="Actions" onclick="javascript:return scForm.postEvent(this,event,'forms:addaction')">
+        <li id="{850B52F1-FBE5-4A89-998C-32DAD0364ABE}" unicid="7AEFB186CD6F496FAE47E50A5EE5C68C">
+          <parameters>&amp;lt;defaultprofileitemid&amp;gt;{38F813E8-8787-4CE5-B13F-6D0C554E7927}&amp;lt;/defaultprofileitemid&amp;gt;&amp;lt;usernamefield&amp;gt;{F91A3E59-9DBD-48F8-A8B9-B1D61613199B}&amp;lt;/usernamefield&amp;gt;&amp;lt;domainfield&amp;gt;grandbasel&amp;lt;/domainfield&amp;gt;&amp;lt;auditfield&amp;gt;NoAudit&amp;lt;/auditfield&amp;gt;&amp;lt;passwordfield&amp;gt;randomPassword&amp;lt;/passwordfield&amp;gt;&amp;lt;associateuserwithvisitor&amp;gt;False&amp;lt;/associateuserwithvisitor&amp;gt;&amp;lt;overwriteprofile&amp;gt;False&amp;lt;/overwriteprofile&amp;gt;&amp;lt;mapping&amp;gt;&amp;lt;data&amp;gt;&amp;lt;field controlid=&amp;quot;fieldChoice0&amp;quot; fieldid=&amp;quot;{F91A3E59-9DBD-48F8-A8B9-B1D61613199B}&amp;quot;&amp;gt;&amp;lt;profile controlid=&amp;quot;profileChoice0&amp;quot; fieldid=&amp;quot;Full Name&amp;quot;&amp;gt;&amp;lt;/profile&amp;gt;&amp;lt;/field&amp;gt;&amp;lt;/data&amp;gt;&amp;lt;/mapping&amp;gt;&amp;lt;profileitemid&amp;gt;{38F813E8-8787-4CE5-B13F-6D0C554E7927}&amp;lt;/profileitemid&amp;gt;</parameters>
+        </li>
+        <li id="{D4502A11-9417-4479-9F2A-485F45D2E2D0}" unicid="D925E4D1B8C94CBB9C7410DFA88C18AC">
+          <parameters>&amp;lt;from&amp;gt;no-reply@powertage.ch&amp;lt;/from&amp;gt;&amp;lt;isbodyhtml&amp;gt;true&amp;lt;/isbodyhtml&amp;gt;&amp;lt;to&amp;gt;[{F91A3E59-9DBD-48F8-A8B9-B1D61613199B}]&amp;lt;/to&amp;gt;&amp;lt;cc&amp;gt;&amp;lt;/cc&amp;gt;&amp;lt;bcc&amp;gt;&amp;lt;/bcc&amp;gt;&amp;lt;localfrom&amp;gt;no-reply@powertage.ch&amp;lt;/localfrom&amp;gt;&amp;lt;subject&amp;gt;Anmeldung zum Powertage Newsletter 2018&amp;lt;/subject&amp;gt;&amp;lt;mail&amp;gt;&amp;lt;p&amp;gt;Sehr geehrte Dame, sehr geehrter Herr,&amp;lt;/p&amp;gt;
+    &amp;lt;p&amp;gt;wir bedanken uns f&amp;#252;r die Anmeldung zu unserem Newsletter. In diesem Newsletter werden wir sie &amp;#252;ber die Neuigkeiten rund um die Powertage informieren.&amp;lt;/p&amp;gt;
+    &amp;lt;p&amp;gt;mit freundlichen Gr&amp;#252;ssen&amp;lt;br&amp;gt;
+    Ihre Powertage&amp;lt;/p&amp;gt;&amp;lt;/mail&amp;gt;</parameters>
+        </li>
+      </g>
+    </li>
+- ID: "af08c32b-f101-44a4-baae-677383e8eb02"
+  Hint: Check Actions
+  Value: |
+    <?xml version="1.0" encoding="utf-16"?>
+    <li xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <g id="{10FE9225-5E6C-4896-9CD2-880D6D48C4CC}" displayName="Check Actions">
+        <li id="{2D5B5061-747A-4477-BD41-E746EAFEB231}" unicid="89F18F7C96F4469A9470057CE421A115">
+          <parameters />
+        </li>
+      </g>
+    </li>
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <event
+        name="Submit Success Event"
+        id="{2FF08489-2A47-4F04-8D8E-0C25A294B2C4}" />
+      <event
+        name="Form Submit"
+        id="{A2C2CF51-9360-4084-9BA0-1A15F1A41096}" />
+      <event
+        name="Field Completed"
+        id="{F0113A93-570A-4F69-8C7C-BA08037D1E34}" />
+      <event
+        name="Field Not Completed"
+        id="{7E86B2F5-ACEC-4C60-8922-4EB5AE5D9874}" />
+      <event
+        name="Field Out of Boundary"
+        id="{F3D7B20C-675C-4707-84CC-5E5B4481B0EE}" />
+      <event
+        name="Form Check Action Error"
+        id="{7144C4C9-E56A-4529-B3C1-A1DEDC454AB8}" />
+      <event
+        name="Form Save Action Failure"
+        id="{DE302E25-E5AF-465E-8BB1-5C3E8145615D}" />
+      <event
+        name="Invalid Field Syntax"
+        id="{844BBD40-91F6-42CE-8823-5EA4D089ECA2}" />
+      <event
+        name="Newsletter Signup Powertage 2018"
+        id="{6F24A501-C09C-4C69-A8C6-94456A1CD8E7}" />
+    </tracking>
+- ID: "faeacd39-b059-4f46-bec4-74ba468a97b8"
+  Hint: Show Footer
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f2414bd-a95d-419c-a238-a6637a3fab76"
+      Hint: Introduction
+      Value: |
+        		<p>Abonnieren Sie den Newsletter und erfahren Sie ab Januar 2018 als erstes von den Neuigkeiten rund um die Powertage..</p>
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170911T073728Z
+    - ID: "4e2dc894-59a2-49bb-a49c-562f611169a2"
+      Hint: Success Message
+      Value: Vielen Dank für die Anmeldung zu unserem Newsletter
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826
+    - ID: "6739fa82-a9b4-40f1-aefe-3d67ae3e8dfc"
+      Hint: Title Tag
+      Value: H1
+    - ID: "86d6a401-5a20-49c9-a2f8-0312398ee946"
+      Hint: Title
+      Value: Bleiben Sie auf dem Laufenden
+    - ID: "95968a5a-db52-4f50-b471-c6c7da81f7e8"
+      Hint: Footer
+      Value: |
+        		<p>Durch die Abgabe meiner Daten erkläre ich mich damit einverstanden, dass die MCH, von MCH beauftragte Dritte oder Aussteller diese Daten zu Marketingzwecken nutzen dürfen, und ich akzeptiere die AGB der MCH Exhibitions.</p>
+        
+    - ID: "9c4c1994-5140-49d3-bad7-db997816f816"
+      Hint: Success Page
+      Value: |
+        <link id="{00000000-0000-0000-0000-000000000000}" />
+    - ID: "b71296b6-32b9-4703-a8cb-fb7437271103"
+      Hint: Name
+      Value: Anmelden

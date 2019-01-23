@@ -1,0 +1,14 @@
+﻿---
+ID: "0cedf88a-170b-474b-abbe-41b548482f76"
+Parent: "11418b3b-75b9-4220-81b9-0ef9cadaa97b"
+Template: "11418b3b-75b9-4220-81b9-0ef9cadaa97b"
+Path: /sitecore/templates/Foundation/Theming/ParametersTemplate_HasCustomStyle/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160323T004949Z

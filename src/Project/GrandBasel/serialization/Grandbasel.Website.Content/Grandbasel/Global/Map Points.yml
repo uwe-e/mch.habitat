@@ -1,0 +1,18 @@
+﻿---
+ID: "47c09a61-eeb9-440b-aed6-630ca8a3266b"
+Parent: "32b06e20-3db6-4709-bca1-edaf447c040c"
+Template: "067ec866-b3fb-485b-bb49-6151fb086e78"
+Path: /sitecore/content/Grandbasel/Global/Map Points
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170918T083012Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

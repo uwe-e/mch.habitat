@@ -1,0 +1,37 @@
+﻿---
+ID: "887696a8-2ad2-460f-aa3f-c2adff43a5af"
+Parent: "ad3cfc5f-3480-4fab-a370-06856d9bd3ae"
+Template: "4a6a7e36-2481-438f-a9ba-0453ecc638fa"
+Path: /sitecore/system/Marketing Control Panel/Profiles/Grandbasel/Pattern Cards/Visitor Pattern
+DB: master
+SharedFields:
+- ID: "6da71ad3-5849-4482-9317-d21390e5a348"
+  Hint: Pattern
+  Value: |
+    <tracking>
+      <profile id="{D0611757-B7A0-4E56-B1A3-0C6221EC20A1}" name="Powertage">
+        <key name="Visitor" value="5" />
+        <key name="Exhibitor" value="1" />
+        <key name="Press Needs" value="2" />
+      </profile>
+      <profile id="{D815B6CD-CA42-4542-AF7C-C342EF06B5D6}" name="Grandbasel">
+        <key name="Exhibitor" value="1" />
+        <key name="Press Needs" value="2" />
+        <key name="Visitor" value="5" />
+      </profile>
+    </tracking>
+- ID: "fe732790-2ddb-4657-a882-c2fce1fbf0c9"
+  Hint: Name
+  Value: Visitor Pattern
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171002T120859Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

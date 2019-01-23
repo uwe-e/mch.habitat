@@ -1,0 +1,25 @@
+﻿---
+ID: "a4c4bac5-3e48-4ddb-8057-4df1af9a0a70"
+Parent: "412edbd6-cf35-4058-a481-b2eef8370fd7"
+Template: "cf47dbae-6e22-465a-b9b5-3eb6bcf9ecbf"
+Path: "/sitecore/system/Modules/Web Forms for Marketers/Grandbasel/aussteller-anmeldung/Adresse des Ausstellers"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170928T100659Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826
+    - ID: "821724f3-30bb-4152-a770-88bc43ac175a"
+      Hint: Title
+      Value: Adresse des Ausstellers

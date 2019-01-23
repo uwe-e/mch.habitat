@@ -1,0 +1,22 @@
+﻿---
+ID: "ba39de97-f5a6-4309-a26b-5e00e2c83d12"
+Parent: "0f9318dd-a1e9-427b-aeba-bcb576f7fb24"
+Template: "c2ac5c42-a05c-4f51-854e-730c9bca06d1"
+Path: "/sitecore/system/Settings/Foundation/Theming/Custom Styles/custom-style-4"
+DB: master
+SharedFields:
+- ID: "cf1e34b0-27e7-4861-becd-c0bc58295f77"
+  Hint: Class
+  Value: "custom-style-4"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170926T064032Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

@@ -1,0 +1,29 @@
+﻿---
+ID: "7f272d4f-8f02-4090-aa33-bcfbc23dfaa1"
+Parent: "4534144f-68bb-4fb5-9da3-664ca5dd8e9d"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/Teasers/_TeasersLayoutParameter
+DB: master
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {A2A233A1-6701-48A9-B5F8-EFEAB74B655F}
+    {11418B3B-75B9-4220-81B9-0EF9CADAA97B}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{3A2A7FEE-F7A2-438D-9FE6-2FBA11ECCCBB}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170926T100636Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

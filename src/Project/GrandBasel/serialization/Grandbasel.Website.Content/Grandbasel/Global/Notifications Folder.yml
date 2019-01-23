@@ -1,0 +1,18 @@
+﻿---
+ID: "803f445a-f4dc-4326-8bb9-6bcf9fc3819a"
+Parent: "32b06e20-3db6-4709-bca1-edaf447c040c"
+Template: "26e254a6-e5af-4891-bf1b-72e5d1dc7a8b"
+Path: /sitecore/content/Grandbasel/Global/Notifications Folder
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171113T103510Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

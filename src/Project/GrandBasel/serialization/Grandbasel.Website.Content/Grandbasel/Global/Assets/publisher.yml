@@ -1,0 +1,28 @@
+﻿---
+ID: "04538b98-452f-4271-ac56-71b133c1e9ac"
+Parent: "11400353-1b6c-41bb-be5b-5dcc912b8259"
+Template: "00b3960a-f556-41e0-88bc-3742188cb617"
+Path: /sitecore/content/Grandbasel/Global/Assets/publisher
+DB: master
+SharedFields:
+- ID: "7cc20586-e0a0-4427-a2a1-fd56b749d243"
+  Hint: Name
+  Value: publisher
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+- ID: "f3eb04da-1941-44e0-8c34-0ca1ea2c1cc0"
+  Hint: Content
+  Value: MCH Messe Schweiz (Basel) AG
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170810T132820Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

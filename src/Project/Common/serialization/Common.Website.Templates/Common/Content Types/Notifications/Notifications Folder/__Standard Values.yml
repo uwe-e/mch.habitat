@@ -1,0 +1,23 @@
+﻿---
+ID: "7e842cda-c818-4246-bdee-235021781c56"
+Parent: "26e254a6-e5af-4891-bf1b-72e5d1dc7a8b"
+Template: "26e254a6-e5af-4891-bf1b-72e5d1dc7a8b"
+Path: /sitecore/templates/Project/Common/Content Types/Notifications/Notifications Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{1CB324FF-DCB8-4D0D-944D-A1E0C4AFD5AC}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171113T111854Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

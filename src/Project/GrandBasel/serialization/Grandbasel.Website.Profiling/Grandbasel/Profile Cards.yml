@@ -1,0 +1,23 @@
+﻿---
+ID: "6ed1c962-d225-4b6a-86d0-176705f8a6b2"
+Parent: "d815b6cd-ca42-4542-af7c-c342ef06b5d6"
+Template: "1ad02405-7207-4962-ba96-6d6c3ba30ba7"
+Path: /sitecore/system/Marketing Control Panel/Profiles/Grandbasel/Profile Cards
+DB: master
+BranchID: "07624a03-bb2f-45d8-abe1-15e2b1705ff3"
+SharedFields:
+- ID: "a653241d-eda4-49a4-a259-9f7c5613f2ac"
+  Hint: Authoring Selection
+  Value: "{2DE135D7-FB39-42B2-B10A-13CB4285E5C5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171002T085922Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

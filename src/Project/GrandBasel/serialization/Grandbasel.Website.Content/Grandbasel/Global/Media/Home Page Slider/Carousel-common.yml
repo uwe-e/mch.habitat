@@ -1,0 +1,66 @@
+﻿---
+ID: "badfcf3e-94fd-4f76-bc18-f1f1574d1706"
+Parent: "c8a83114-a9ff-43d3-876c-e664efaccba7"
+Template: "c18d3794-d126-4548-bfc8-89358de6e9c1"
+Path: "/sitecore/content/Grandbasel/Global/Media/Home Page Slider/Carousel-common"
+DB: master
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160112T160942Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "72ea8682-24d2-4beb-951c-3e2164974105"
+      Hint: MediaSelector
+      Type: Multilist
+      Value: |
+        {98D1970C-E669-448F-9E2A-DE9087A46F58}
+        {EC545DC1-F12B-4B22-8FEB-7F0A4211C0E8}
+        {69CF65FB-F46E-4038-BBFB-66695B9178E4}
+        {12CFA7C1-B5BD-4C99-B6F4-221423F2E0E1}
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150902T071953Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "72ea8682-24d2-4beb-951c-3e2164974105"
+      Hint: MediaSelector
+      Type: Multilist
+      Value: |
+        {DE1A04CF-930E-4FC3-8E17-125A8EC3E316}
+        {9E5CC1AF-8CBB-448E-A316-DEA4C22875B8}
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: カルーセル
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170323T054653Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "72ea8682-24d2-4beb-951c-3e2164974105"
+      Hint: MediaSelector
+      Type: Multilist
+      Value: |
+        {12CFA7C1-B5BD-4C99-B6F4-221423F2E0E1}
+        {69CF65FB-F46E-4038-BBFB-66695B9178E4}
+        {EC545DC1-F12B-4B22-8FEB-7F0A4211C0E8}
+        {98D1970C-E669-448F-9E2A-DE9087A46F58}

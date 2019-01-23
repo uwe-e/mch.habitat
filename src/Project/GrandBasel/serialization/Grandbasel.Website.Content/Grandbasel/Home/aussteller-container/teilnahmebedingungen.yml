@@ -1,0 +1,114 @@
+﻿---
+ID: "d53a7bdf-2adc-420a-8cb2-52832bdea8b7"
+Parent: "8ac876e1-b493-4973-8a53-d70b1d8232dd"
+Template: "9d016889-9cc2-4719-8fa2-6890fba3f185"
+Path: "/sitecore/content/Grandbasel/Home/aussteller-container/teilnahmebedingungen"
+DB: master
+SharedFields:
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{D815B6CD-CA42-4542-AF7C-C342EF06B5D6}"
+        name="Grandbasel"
+        presets="adam the exhibitor|90||camille the reporter|10||">
+        <key
+          name="Exhibitor"
+          value="4.7" />
+        <key
+          name="Press Needs"
+          value="2.3" />
+        <key
+          name="Visitor"
+          value="2" />
+      </profile>
+    </tracking>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{03B9E903-DC83-4A3D-AF6B-F1FBAECAFC21}"
+              p:before="*"
+              s:ds="{03539373-640F-4F42-A290-32B4DAF89BCB}"
+              s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
+              s:ph="/page-layout/section-narrow/col-wide-1_efcb3a69-e58d-4b14-8e0c-f9e2c6670e91/col-narrow-3_7e0539de-9177-4b70-98de-03b6e6a555d5" />
+            <r
+              uid="{A11B91E6-41F8-4380-A8BB-5358D436A1DA}"
+              p:after="r[@uid='{03B9E903-DC83-4A3D-AF6B-F1FBAECAFC21}']"
+              s:ds="{8B2EEF75-47E9-44C1-BC38-304B06EE65A7}"
+              s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
+              s:ph="/page-layout/section-narrow/col-wide-1_efcb3a69-e58d-4b14-8e0c-f9e2c6670e91/col-narrow-2_7e0539de-9177-4b70-98de-03b6e6a555d5" />
+            <r
+              uid="{8F982245-005B-4090-B016-B62AD500AC5B}"
+              p:after="r[@uid='{A11B91E6-41F8-4380-A8BB-5358D436A1DA}']"
+              s:ds="{AF12C9FD-AAF3-47DF-8DE1-F6E069BC5783}"
+              s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
+              s:ph="/page-layout/section-narrow/col-wide-1_efcb3a69-e58d-4b14-8e0c-f9e2c6670e91/col-narrow-1_7e0539de-9177-4b70-98de-03b6e6a555d5" />
+            <r
+              uid="{7E0539DE-9177-4B70-98DE-03B6E6A555D5}"
+              p:after="r[@uid='{8F982245-005B-4090-B016-B62AD500AC5B}']"
+              s:id="{7074CA39-734D-4953-A3D5-B7D09C37CE3B}"
+              s:ph="/page-layout/section-narrow/col-wide-1_efcb3a69-e58d-4b14-8e0c-f9e2c6670e91" />
+            <r
+              uid="{8746AB73-22B1-444C-B696-72CFE9ED5116}"
+              p:after="r[@uid='{7E0539DE-9177-4B70-98DE-03B6E6A555D5}']"
+              s:ds="{72B6E032-ED5E-4F63-909E-3BFD627C8380}"
+              s:id="{781C6B36-4B02-46EA-8ADC-B92A11877F10}"
+              s:ph="/page-layout/section-narrow/col-wide-1_2d976a29-6203-492d-9383-add13a5210b8" />
+            <r
+              uid="{2D976A29-6203-492D-9383-ADD13A5210B8}"
+              p:after="r[@uid='{8746AB73-22B1-444C-B696-72CFE9ED5116}']"
+              s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
+              s:ph="/page-layout/section-narrow" />
+            <r
+              uid="{EFCB3A69-E58D-4B14-8E0C-F9E2C6670E91}"
+              p:after="r[@uid='{2D976A29-6203-492D-9383-ADD13A5210B8}']"
+              s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
+              s:ph="/page-layout/section-narrow" />
+          </d>
+        </r>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Teilnahmebedingungen
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171214T102851Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: 
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <div class="styled-h1">
+        <h1><span class="CustomStyle3">Allgemeine Teilnahmebedingungen</span></h1>
+        <p>Bitte beachten Sie folgende Hinweise. Der Beirat hat sich f&uuml;r ein einheitliches Konzept entschieden. Dies bedeutet:</p>
+        <ul class="styled-ul">
+            <li>Ein Unternehmen kann nur mit einem Standpaket an den Powertagen 2018 teilnehmen.</li>
+            <li>Der Standbau ist einheitlich, es sind keine Sonderbauten m&ouml;glich. Jedoch kann der Innenausbau durch den Aussteller individuell gestaltet werden.</li>
+            <li>Kostenlose Bewirtung</li>
+            <li>Jedem Forumsteilnehmer und jedem Besucher (Eintritt ab 10.00 Uhr) offerieren die Aussteller ein Mittagessen zwischen 11.30 und 13.15 Uhr. Die Networking-Zone wird von den Ausstellern als</li>
+            <li>Besprechungs- und Verpflegungszone benutzt. Aus diesem Grund ist ein Standcatering nicht erlaubt.</li>
+            <li>Aussteller k&ouml;nnen f&uuml;r ihre Kunden weder f&uuml;r das Fachforum noch f&uuml;r die Ausstellung Eintrittskarten bestellen. Die Teilnahme am Fachforum ist auch f&uuml;r Aussteller kostenpflichtig. Die Anzahl der Pl&auml;tze ist limitiert.</li>
+            <li>Die Aussteller verpflichten sich jeden Abend bis zum Ende der Ausstellung zu bleiben. Das heisst, an allen drei Tagen bis 17.00 Uhr. Ein vorzeitiger Abbau ist nicht erlaubt!</li>
+        </ul>
+        <p>F&uuml;r die Powertage 2018 gelten die Bestimmungen des Ausstellerreglements und der Messebetriebsordnung der MCH Messe Basel.</p>
+        </div>

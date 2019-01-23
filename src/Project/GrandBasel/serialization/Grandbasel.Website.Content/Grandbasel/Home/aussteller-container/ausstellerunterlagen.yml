@@ -1,0 +1,88 @@
+﻿---
+ID: "a2270636-3eb7-40a0-82a7-cabc84f7ceec"
+Parent: "8ac876e1-b493-4973-8a53-d70b1d8232dd"
+Template: "9d016889-9cc2-4719-8fa2-6890fba3f185"
+Path: "/sitecore/content/Grandbasel/Home/aussteller-container/ausstellerunterlagen"
+DB: master
+SharedFields:
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{D815B6CD-CA42-4542-AF7C-C342EF06B5D6}"
+        name="Grandbasel"
+        presets="adam the exhibitor|100||">
+        <key
+          name="Exhibitor"
+          value="1" />
+        <key
+          name="Press Needs"
+          value="1" />
+        <key
+          name="Visitor"
+          value="1" />
+      </profile>
+    </tracking>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{0EAB8CC3-80B8-48EC-A736-AA0A760235D0}"
+              p:before="*"
+              s:ds="{5AFE9D69-FDE8-4ADC-8323-A0B572EB7874}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:ph="/page-layout/section-narrow/col-wide-1_a6f5080c-3bfb-4f4f-af2f-ae91bf42570e" />
+            <r
+              uid="{A6F5080C-3BFB-4F4F-AF2F-AE91BF42570E}"
+              p:after="r[@uid='{0EAB8CC3-80B8-48EC-A736-AA0A760235D0}']"
+              s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
+              s:ph="/page-layout/section-narrow" />
+          </d>
+        </r>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Ausstellerunterlagen
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170901T083449Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Alle Informationen kompakt zusammengefasst
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Ausstellerunterlagen
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <div>Die Powertage ist die bedeutendste Fachmesse f&uuml;r die Schweizer Stromwirtschaft. Hier kommen alle Akteure zusammen, um sich auszutauschen, um Innovationen vorzustellen und kennenzulernen sowie um gemeinsam die neue Energiewelt voranzutreiben. Nutzen Sie die Chance und melden Sie sich gleich an.</div>
+        <p>In den Ausstellerunterlagen, bestehend aus der Ausstellerbrosch&uuml;re, Ausstellervertrag und den Reglementen, finden Sie alle wichtigen Informationen f&uuml;r Ihre Messeteilnahme kompakt zusammengefasst. Die Anmeldung zu den Powertagen 2018 steht Ihnen als beschreibbares PDF zur Verf&uuml;gung. Sie k&ouml;nnen dieses online ausf&uuml;llen und uns unterschrieben zukommen lassen. Bitte senden Sie die ausgef&uuml;llte und unterschriebene Anmeldung per <a href="mailto:info@powertage.ch?subject=Anmeldung%20Powertage%202018">E-Mail</a>, an die Faxnummer +41 (0)58 206 21 89 oder per Post an:</p>
+        <div> <br />
+        MCH Messe Schweiz (Basel) AG<br />
+        Powertage&nbsp;<br />
+        CH-4005 Basel</div>
+        <h4>Downloads</h4>
+        <ul>
+            <li><a href="-/media/2DA7315249BB432F8BADC590D165D47A.ashx">Ausstellerbrosch&uuml;re</a></li>
+            <li><a href="-/media/7C78E6E5802F44E5A1A3743D18F0F783.ashx">Ausstellervertrag</a></li>
+            <li><a href="-/media/71A9517D8F3546EA854E68E67247502B.ashx">Ausstellerreglement</a></li>
+            <li><a href="-/media/47C03945B7324FD6AA46765AF03BAA3C.ashx" target="_blank">Betriebsordnung</a></li>
+        </ul>

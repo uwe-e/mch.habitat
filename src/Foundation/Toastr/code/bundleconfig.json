@@ -1,0 +1,16 @@
+[
+    {
+        "outputFileName": "scripts//toastr/MCH.Foundation.Toastr.js",
+        "inputFiles": [
+            "bower_components/jquery/dist/jquery.js",
+            "bower_components/toastr/toastr.js"
+        ],
+        "sourceMap": true
+    },
+    {
+        "outputFileName": "styles/toastr/toastr.css",
+      "inputFiles": [
+        "bower_components/toastr/toastr.css"
+      ]
+    }
+]

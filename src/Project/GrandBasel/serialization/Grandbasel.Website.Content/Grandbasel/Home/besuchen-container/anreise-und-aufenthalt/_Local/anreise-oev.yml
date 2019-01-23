@@ -1,0 +1,32 @@
+﻿---
+ID: "8a028dfb-9c8d-4433-b07c-009efbc4e971"
+Parent: "4c157816-707b-4a9f-acf5-1536d734b6ba"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: "/sitecore/content/Grandbasel/Home/besuchen-container/anreise-und-aufenthalt/_Local/anreise-oev"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "13d97a52-7c4e-407c-960d-fadde8a3c1b1"
+      Hint: TeaserSummary
+      Value: |
+        Folgen Sie der «Messe»-Signalisation, welche Sie direkt ins Parkhaus Messe Zürich leitet. Dort stehen zahlreiche Parkplätze zur Verfügung, nur wenige Gehminuten von den Messehallen entfernt.
+        
+        Parkhaus Messe Zürich
+        Hagenholzstrasse 48
+        8050 Zürich
+        
+        Kosten CHF 3.–/Std.,
+        ab der 5. Stunde CHF 2.–/Std.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170918T094720Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: Mit den öffentlichen Verkehrsmitteln
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

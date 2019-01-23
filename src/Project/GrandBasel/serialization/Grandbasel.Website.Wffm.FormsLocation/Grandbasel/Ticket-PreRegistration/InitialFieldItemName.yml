@@ -1,0 +1,56 @@
+﻿---
+ID: "9ece0caa-45f5-40e4-8f77-150f729f87b3"
+Parent: "62b01be0-5ef5-4f94-b390-4f424d3355d5"
+Template: "c9e1bf85-800a-4247-a3a3-c3f5dfbfd6aa"
+Path: "/sitecore/system/Modules/Web Forms for Marketers/Grandbasel/Ticket-PreRegistration/InitialFieldItemName"
+DB: master
+SharedFields:
+- ID: "358e7aa0-e3e6-4ef6-92df-ec1301737b50"
+  Hint: Parameters
+  Value: <PredefinedValidator>0B257672684F4411B464914245E7871B</PredefinedValidator><RegexPattern></RegexPattern>
+- ID: "35c76a0b-b630-458c-aecc-1d62c50d24fc"
+  Hint: Field Link
+  Value: "{6353E864-D3AE-4FF9-88DD-60B0F779A44A}"
+- ID: "acd3122b-f975-433e-9802-35bc5f8fe2b4"
+  Hint: Required
+  Type: Checkbox
+  Value: 1
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "e312bdfa-ddba-4acc-907a-89a0b59638d4"
+  Hint: Rules
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule
+        uid="{A66800D4-2976-403F-AE01-1191AE9CD8FB}"
+        name="New Condition">
+        <actions>
+          <action
+            id="{A69509DC-97B8-42F2-9071-C08264D1F76F}"
+            uid="E3475C119F754E6CA30401F676188108"
+            Name="Personal/FirstName" />
+        </actions>
+        <conditions>
+          <condition
+            id="{4888ABBB-F17D-4485-B14B-842413F88732}"
+            uid="39C6E67733574860B42C4718C364877A" />
+        </conditions>
+      </rule>
+    </ruleset>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171020T084437Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826
+    - ID: "821724f3-30bb-4152-a770-88bc43ac175a"
+      Hint: Title
+      Value: Vorname

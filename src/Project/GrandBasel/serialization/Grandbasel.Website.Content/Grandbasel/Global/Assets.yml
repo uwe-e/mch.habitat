@@ -1,0 +1,14 @@
+﻿---
+ID: "11400353-1b6c-41bb-be5b-5dcc912b8259"
+Parent: "32b06e20-3db6-4709-bca1-edaf447c040c"
+Template: "236064e1-da06-449a-9000-408f7fa72291"
+Path: /sitecore/content/Grandbasel/Global/Assets
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170810T132756Z

@@ -1,0 +1,33 @@
+﻿---
+ID: "fbc596b6-1518-48a7-9a22-661acfcb7faf"
+Parent: "cdde773d-fe22-4dbb-9326-3651ec1070c8"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: "/sitecore/content/Grandbasel/Home/ueber-die-powertage-container/ueber-die-powertage/_Local/veranstaltungskonzept-weiterentwicklung"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "13d97a52-7c4e-407c-960d-fadde8a3c1b1"
+      Hint: TeaserSummary
+      Value: |
+        Von der zentralen zu der dezentralen Energieerzeugung
+        Digitalisierungstrends innerhalb der gesamten Wertschöpfungskette (smarte Anwendungen)
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170911T063525Z
+    - ID: "3f7e7e3a-4e8e-4639-b079-fc5aeff172f5"
+      Hint: Teaser Label
+      Value: "Weiterentwicklung 2004 bis heute:"
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

@@ -1,0 +1,25 @@
+﻿---
+ID: "284a2ec2-8784-472e-ae4f-93188035ef0b"
+Parent: "11400353-1b6c-41bb-be5b-5dcc912b8259"
+Template: "43705d9e-9039-4e6d-8bb1-9ce45501dd37"
+Path: /sitecore/content/Grandbasel/Global/Assets/experiencebar
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+- ID: "cd784129-580b-4bb9-8770-085243937369"
+  Hint: Href
+  Value: "https://media.messe.ch/ue/mch.grandbasel/experiencebar.css"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170831T115304Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

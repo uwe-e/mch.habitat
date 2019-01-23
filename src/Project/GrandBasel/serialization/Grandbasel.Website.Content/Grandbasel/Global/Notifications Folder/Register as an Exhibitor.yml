@@ -1,0 +1,21 @@
+﻿---
+ID: "2ef9e63e-15ed-48bd-91b9-e83da3b1c453"
+Parent: "803f445a-f4dc-4326-8bb9-6bcf9fc3819a"
+Template: "1cb324ff-dcb8-4d0d-944d-a1e0c4afd5ac"
+Path: /sitecore/content/Grandbasel/Global/Notifications Folder/Register as an Exhibitor
+DB: master
+SharedFields:
+- ID: "345027c6-8fc9-4e71-a35d-5172228cf3a4"
+  Hint: Type
+  Value: "{36C557E5-2398-4B24-A362-8471B64A3835}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171113T112104Z
+    - ID: "615ab99a-9b36-4c15-bd28-5f07cf0bf359"
+      Hint: Message
+      Value: Melden Sie sich als Aussteller an

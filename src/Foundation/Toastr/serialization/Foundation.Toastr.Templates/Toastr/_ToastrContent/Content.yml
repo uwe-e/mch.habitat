@@ -1,0 +1,18 @@
+﻿---
+ID: "8a4f3fef-130c-42e9-872e-42763c0ec77e"
+Parent: "09084e64-1c75-43f9-b0ee-95590af722fb"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/Toastr/_ToastrContent/Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171113T111531Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

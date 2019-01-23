@@ -11,9 +11,12 @@
 }
 
 <header>
-  <h1>
-    @Html.Sitecore().Field(Templates.HasPageContent.Fields.Title, Model.Item)
-  </h1>
+    @if (Model.Item.FieldHasValue(Templates.HasPageContent.Fields.Title) || Sitecore.Context.PageMode.IsExperienceEditor)
+    {
+        <h1>
+            @Html.Sitecore().Field(Templates.HasPageContent.Fields.Title, Model.Item)
+        </h1>
+    }
   @if (Model.Item.FieldHasValue(Templates.HasPageContent.Fields.Summary) || Sitecore.Context.PageMode.IsExperienceEditor)
   {
     <div class="lead">

@@ -1,0 +1,25 @@
+﻿---
+ID: "f2b330ff-d589-40f6-bfae-575936bdb5ef"
+Parent: "b495ae4c-71e9-4579-b047-27e8e18d1d3c"
+Template: "8c5ead00-5f68-4310-ab0c-84f283b5ee0a"
+Path: /sitecore/system/Settings/Analytics/Engagement Automation/Predefined items/Actions/Foundation/Trigger Goal
+DB: master
+SharedFields:
+- ID: "8728a037-47d3-4180-b754-87926eda7ae8"
+  Hint: Editor
+  Value: /sitecore/shell/~/xaml/MCH.Shell.Applications.MarketingAutomation.Dialogs.ActionEditors.TriggerGoal.aspx
+- ID: "a291a22b-99e2-46bb-a27b-8ec744275396"
+  Hint: Type
+  Value: MCH.Foundation.Analytics.Automation.AutomationActions.TriggerGoalAction,MCH.Foundation.Analytics
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171011T055107Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

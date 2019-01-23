@@ -1,0 +1,46 @@
+﻿---
+ID: "86b05f12-c52a-425c-9fc2-4e61e2235baa"
+Parent: "679d63a6-702c-4a1f-bfce-2ad8e3de7f26"
+Template: "6e5b63d6-2401-4a52-8b4d-cfef5e4e9752"
+Path: /sitecore/system/Marketing Control Panel/Engagement Plans/Habitat/Login Plan
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{689E2994-4656-4C58-9112-7826CB46EE69}"
+- ID: "c36d22d2-94fc-46ac-91db-2cf322c66895"
+  Hint: Flow designer items
+  Value: |
+    <flowDesignerItems>
+      <connectors>
+        <connector itemId="1ad50e7a-9c29-4180-ad16-faf07ae4da31" originId="00000000-0000-0000-0000-000000000000" designerId="65e9bbe8-a11a-4850-8618-081323304cd9" name="New item" description="Description" startItemId="855711f8-cb0d-4134-8670-a0417356f8e2" endItemId="84d8f14d-3dd0-4668-b45b-9071d2b83416" points="8,10 8,14" />
+        <connector itemId="651b2d7d-08e2-4793-98a5-f9c9bb5e8a00" originId="00000000-0000-0000-0000-000000000000" designerId="9548f28c-32ea-4d24-a73c-c496ae1de9f9" name="New item" description="Description" startItemId="84d8f14d-3dd0-4668-b45b-9071d2b83416" endItemId="2605ab9b-7013-4f24-a1e6-f3e393f0a60f" points="13,17 21,17" />
+      </connectors>
+      <disconnectedItems>
+        <command itemId="b9914ad9-6de7-481b-be81-1e23cd00b3b1" originId="00000000-0000-0000-0000-000000000000" designerId="b03d4378-dcd3-4c36-a094-eb15eab31c54" name="New item" description="Description" sortOrder="0" nextStateId="00000000-0000-0000-0000-000000000000" />
+      </disconnectedItems>
+      <flowRenderedItemsValues>
+        <flowRenderedItemValues itemId="855711f8-cb0d-4134-8670-a0417356f8e2" x="2" y="4" width="12" height="6" zIndex="6" backgroundColor="#FF00344E" foregroundColor="#FFFFFFFF" iconUri="/temp/iconcache/software/32x32/shape_square.png" showIcon="false" fieldEditorValues="&lt;fields itemId=&quot;{682D3520-25D8-4A23-8A16-378D9318831C}&quot;&gt;&#xD;&#xA;  &lt;field id=&quot;{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}&quot; value=&quot;Login State&quot; name=&quot;__Display name&quot; /&gt;&#xD;&#xA;&lt;/fields&gt;" />
+        <flowRenderedItemValues itemId="84d8f14d-3dd0-4668-b45b-9071d2b83416" x="3" y="14" width="10" height="6" zIndex="10" backgroundColor="#FF00767E" foregroundColor="#FFFFFFFF" iconUri="/temp/iconcache/software/32x32/shape_rhomb.png" showIcon="false" fieldEditorValues="&lt;fields itemId=&quot;{3A1D520C-E74C-49E3-BC4D-4174E6B809F4}&quot;&gt;&#xD;&#xA;  &lt;field id=&quot;{06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}&quot; name=&quot;Description&quot; value=&quot;&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{E13DCD09-D9BB-43C9-8D7D-438C79D714CA}&quot; name=&quot;Evaluate&quot; value=&quot;{B81C1F4C-8B83-44D9-902F-448463DBCCBC}&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{21F3482B-BB14-4555-BA5D-AF20D400D5B9}&quot; name=&quot;Rule&quot; value=&quot;&amp;lt;ruleset&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;rule uid=&amp;quot;{523B170B-0F3E-4313-BCA6-D6D84EC7D497}&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;conditions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;condition id=&amp;quot;{4D290FF3-1587-4FEE-AB37-88768766A9D9}&amp;quot; uid=&amp;quot;0F716C62A004472888459907AF2EAF34&amp;quot; GoalId=&amp;quot;{66722F52-2D13-4DCC-90FC-EA7117CF2298}&amp;quot; /&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/conditions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/rule&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/ruleset&amp;gt;&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}&quot; name=&quot;__Display name&quot; value=&quot;If Login&quot; /&gt;&#xD;&#xA;&lt;/fields&gt;" />
+        <flowRenderedItemValues itemId="359e4b71-fc45-4916-8776-bab619e643c6" x="10" y="10" width="8" height="4" zIndex="0" backgroundColor="#FF00344E" foregroundColor="#FFFFFFFF" iconUri="/temp/iconcache/imaging/32x32/line_straight_blue_h.png" showIcon="true" fieldEditorValues="&lt;fields itemId=&quot;{359E4B71-FC45-4916-8776-BAB619E643C6}&quot;&gt;&#xD;&#xA;  &lt;field id=&quot;{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}&quot; value=&quot;Send E-Mail Message&quot; name=&quot;__Display name&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}&quot; value=&quot;&quot; name=&quot;Description&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{A291A22B-99E2-46BB-A27B-8EC744275396}&quot; value=&quot;Sitecore.Analytics.Automation.AutomationActions.SendEmailMessageAction,Sitecore.Analytics.Automation&quot; name=&quot;Type&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{1507131D-CEE3-49E9-AF32-DE5403A37B49}&quot; value=&quot;AutomationActionDescription=msg&amp;amp;Subject=msg&amp;amp;Content=a+mail+written+by+me&amp;amp;FixedEmail=uwe.eichkorn@mch-group.com&amp;amp;FromName=backend-xdb@messe.ch&amp;amp;FromEmail=backend-xdb@messe.ch&amp;amp;BaseSiteURL=http://uehabitat.entw.intra&quot; name=&quot;Parameters&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{8728A037-47D3-4180-B754-87926EDA7AE8}&quot; value=&quot;/sitecore/shell/~/xaml/Sitecore.Shell.Applications.MarketingAutomation.Dialogs.ActionEditors.SendEmailMessage.aspx&quot; name=&quot;Editor&quot; /&gt;&#xD;&#xA;&lt;/fields&gt;" />
+        <flowRenderedItemValues itemId="2605ab9b-7013-4f24-a1e6-f3e393f0a60f" x="21" y="14" width="12" height="6" zIndex="9" backgroundColor="#FF00344E" foregroundColor="#FFFFFFFF" iconUri="/temp/iconcache/software/32x32/shape_square.png" showIcon="false" fieldEditorValues="&lt;fields itemId=&quot;{D4B11743-6B6F-49A3-AF32-6778770F021F}&quot;&gt;&#xD;&#xA;  &lt;field id=&quot;{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}&quot; value=&quot;New item&quot; name=&quot;__Display name&quot; /&gt;&#xD;&#xA;&lt;/fields&gt;" />
+        <flowRenderedItemValues itemId="65e9bbe8-a11a-4850-8618-081323304cd9" x="8" y="10" width="10" height="10" zIndex="5" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="9548f28c-32ea-4d24-a73c-c496ae1de9f9" x="13" y="17" width="10" height="10" zIndex="8" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="b03d4378-dcd3-4c36-a094-eb15eab31c54" x="3" y="14" width="10" height="6" zIndex="4" backgroundColor="#FF00767E" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+      </flowRenderedItemsValues>
+    </flowDesignerItems>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170815T121842Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{EDCBB550-BED3-490F-82B8-7B2F14CCD26E}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

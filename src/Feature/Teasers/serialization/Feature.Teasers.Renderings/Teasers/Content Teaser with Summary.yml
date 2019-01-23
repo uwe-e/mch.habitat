@@ -10,7 +10,7 @@ SharedFields:
   Value: /Views/Teasers/TitleSummaryTeaser.cshtml
 - ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
   Hint: Parameters Template
-  Value: "{A2A233A1-6701-48A9-B5F8-EFEAB74B655F}"
+  Value: "{7F272D4F-8F02-4090-AA33-BCFBC23DFAA1}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: "site:teasers"

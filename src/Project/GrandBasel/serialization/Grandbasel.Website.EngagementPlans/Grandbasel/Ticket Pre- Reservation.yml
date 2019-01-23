@@ -1,0 +1,49 @@
+﻿---
+ID: "aa24b853-a2a7-47f3-a0f6-1affb9f416f0"
+Parent: "0ef3f3b1-1bf2-4ed7-a607-fcabffb66e81"
+Template: "6e5b63d6-2401-4a52-8b4d-cfef5e4e9752"
+Path: "/sitecore/system/Marketing Control Panel/Engagement Plans/Grandbasel/Ticket Pre- Reservation"
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{689E2994-4656-4C58-9112-7826CB46EE69}"
+- ID: "c36d22d2-94fc-46ac-91db-2cf322c66895"
+  Hint: Flow designer items
+  Value: |
+    <flowDesignerItems>
+      <connectors>
+        <connector itemId="38862907-41c9-4fb7-9210-54ed3ea6d777" originId="00000000-0000-0000-0000-000000000000" designerId="341fffb5-e1f0-4397-90ae-8756ce17a988" name="New item" description="Description" startItemId="0f3b64ab-436d-44f0-8300-d6145a661b5e" endItemId="4141e0fb-d5a1-4677-ab79-730f74108ad1" points="24,8 24,11" />
+        <connector itemId="2e13b5b7-b77d-474a-9c9a-25d375a91b30" originId="00000000-0000-0000-0000-000000000000" designerId="c697f1f2-a235-4e8c-9d0a-0fe52020a898" name="New item" description="Description" startItemId="4141e0fb-d5a1-4677-ab79-730f74108ad1" endItemId="0a2564e1-67b5-4f86-b7c2-d456bfcc2f9f" points="29,14 37,14" />
+        <connector itemId="b411ed9a-df85-4968-9884-e735e5314edb" originId="00000000-0000-0000-0000-000000000000" designerId="c0bb2359-61bb-4c81-aee2-7d7d6778dc02" name="New item" description="Description" startItemId="0a2564e1-67b5-4f86-b7c2-d456bfcc2f9f" endItemId="c09e6826-cf43-42d9-af74-9af8796d47f4" points="43,17 43,30" />
+        <connector itemId="f0748128-ead4-4027-96e3-b0e04e33e356" originId="00000000-0000-0000-0000-000000000000" designerId="8481d13b-7e5c-48d2-853e-f2d741bd3cb9" name="New item" description="Description" startItemId="c09e6826-cf43-42d9-af74-9af8796d47f4" endItemId="68929fa2-0898-435a-9612-eea63bc7d8e8" points="38,33 30,33" />
+      </connectors>
+      <disconnectedItems />
+      <flowRenderedItemsValues>
+        <flowRenderedItemValues itemId="0a2564e1-67b5-4f86-b7c2-d456bfcc2f9f" x="37" y="11" width="12" height="6" zIndex="18" backgroundColor="#FF00344E" foregroundColor="#FFFFFFFF" iconUri="/temp/iconcache/software/32x32/shape_square.png" showIcon="false" fieldEditorValues="&lt;fields itemId=&quot;{92EFBEE5-C0DC-46FF-AC5E-496782A62277}&quot;&gt;&#xD;&#xA;  &lt;field id=&quot;{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}&quot; value=&quot;Delay&quot; name=&quot;__Display name&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}&quot; value=&quot;t&quot; name=&quot;Description&quot; /&gt;&#xD;&#xA;&lt;/fields&gt;" />
+        <flowRenderedItemValues itemId="c09e6826-cf43-42d9-af74-9af8796d47f4" x="38" y="30" width="10" height="6" zIndex="16" backgroundColor="#FF00767E" foregroundColor="#FFFFFFFF" iconUri="/temp/iconcache/software/32x32/shape_rhomb.png" showIcon="false" fieldEditorValues="&lt;fields itemId=&quot;{7180098C-341A-4F5C-BD34-4A4788677CEC}&quot;&gt;&#xD;&#xA;  &lt;field id=&quot;{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}&quot; value=&quot;Where true&quot; name=&quot;__Display name&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}&quot; value=&quot;&quot; name=&quot;Description&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{E13DCD09-D9BB-43C9-8D7D-438C79D714CA}&quot; value=&quot;{B81C1F4C-8B83-44D9-902F-448463DBCCBC}&quot; name=&quot;Evaluate&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{21F3482B-BB14-4555-BA5D-AF20D400D5B9}&quot; value=&quot;&amp;lt;ruleset&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;rule uid=&amp;quot;{61BC0C03-D867-4F45-AABF-295C8C8BA670}&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;conditions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;condition id=&amp;quot;{4888ABBB-F17D-4485-B14B-842413F88732}&amp;quot; uid=&amp;quot;70053C6810EE420C8EB243ADFA28E3BB&amp;quot; /&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/conditions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/rule&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/ruleset&amp;gt;&quot; name=&quot;Rule&quot; /&gt;&#xD;&#xA;&lt;/fields&gt;" />
+        <flowRenderedItemValues itemId="fa784b43-608e-460e-b573-dfb1368bb320" x="10" y="10" width="8" height="4" zIndex="0" backgroundColor="#FF00344E" foregroundColor="#FFFFFFFF" iconUri="/temp/iconcache/imaging/32x32/line_straight_blue_h.png" showIcon="true" fieldEditorValues="&lt;fields itemId=&quot;{FA784B43-608E-460E-B573-DFB1368BB320}&quot;&gt;&#xD;&#xA;  &lt;field id=&quot;{A291A22B-99E2-46BB-A27B-8EC744275396}&quot; name=&quot;Type&quot; value=&quot;MCH.Foundation.Analytics.Automation.AutomationActions.SendEmailMessageAction,MCH.Foundation.Analytics&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}&quot; name=&quot;Description&quot; value=&quot;&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{1507131D-CEE3-49E9-AF32-DE5403A37B49}&quot; name=&quot;Parameters&quot; value=&quot;AutomationActionDescription=Energie an der Swissbau &amp;amp;Subject=Energie an der Swissbau &amp;amp;Content=this+is+a+message+sent+by%26nbsp%3bthe+new+sendmailmessage+Automation+action&amp;amp;FixedEmail=&amp;amp;FromName=noreply&amp;amp;FromEmail=noreply-analytics@messe.ch&amp;amp;BaseSiteURL=http://localhost&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{8728A037-47D3-4180-B754-87926EDA7AE8}&quot; name=&quot;Editor&quot; value=&quot;/sitecore/shell/~/xaml/Sitecore.Shell.Applications.MarketingAutomation.Dialogs.ActionEditors.SendEmailMessage.aspx&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}&quot; name=&quot;__Display name&quot; value=&quot;Send E-Mail Message&quot; /&gt;&#xD;&#xA;&lt;/fields&gt;" />
+        <flowRenderedItemValues itemId="0f3b64ab-436d-44f0-8300-d6145a661b5e" x="18" y="2" width="12" height="6" zIndex="7" backgroundColor="#FF00344E" foregroundColor="#FFFFFFFF" iconUri="/temp/iconcache/software/32x32/shape_square.png" showIcon="false" fieldEditorValues="&lt;fields itemId=&quot;{7591EEBD-2DF6-4E75-9CA6-89E480CD6BDD}&quot;&gt;&#xD;&#xA;  &lt;field id=&quot;{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}&quot; value=&quot;Form Submitted&quot; name=&quot;__Display name&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}&quot; value=&quot;Has prereservation form submitted&quot; name=&quot;Description&quot; /&gt;&#xD;&#xA;&lt;/fields&gt;" />
+        <flowRenderedItemValues itemId="4141e0fb-d5a1-4677-ab79-730f74108ad1" x="19" y="11" width="10" height="6" zIndex="10" backgroundColor="#FF00767E" foregroundColor="#FFFFFFFF" iconUri="/temp/iconcache/software/32x32/shape_rhomb.png" showIcon="false" fieldEditorValues="&lt;fields itemId=&quot;{B18C1B65-2434-4D8E-8408-DFC182A4F330}&quot;&gt;&#xD;&#xA;  &lt;field id=&quot;{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}&quot; value=&quot;Where true&quot; name=&quot;__Display name&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}&quot; value=&quot;&quot; name=&quot;Description&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{E13DCD09-D9BB-43C9-8D7D-438C79D714CA}&quot; value=&quot;{B81C1F4C-8B83-44D9-902F-448463DBCCBC}&quot; name=&quot;Evaluate&quot; /&gt;&#xD;&#xA;  &lt;field id=&quot;{21F3482B-BB14-4555-BA5D-AF20D400D5B9}&quot; value=&quot;&amp;lt;ruleset&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;rule uid=&amp;quot;{B0B58946-7581-4B75-9490-997679EA66F1}&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;conditions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;condition id=&amp;quot;{4888ABBB-F17D-4485-B14B-842413F88732}&amp;quot; uid=&amp;quot;0BC20A1407014E738EE9B5DC9F6A8228&amp;quot; /&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/conditions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/rule&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/ruleset&amp;gt;&quot; name=&quot;Rule&quot; /&gt;&#xD;&#xA;&lt;/fields&gt;" />
+        <flowRenderedItemValues itemId="68929fa2-0898-435a-9612-eea63bc7d8e8" x="18" y="30" width="12" height="6" zIndex="17" backgroundColor="#FF00344E" foregroundColor="#FFFFFFFF" iconUri="/temp/iconcache/software/32x32/shape_square.png" showIcon="false" fieldEditorValues="&lt;fields itemId=&quot;{9F792BAA-DC94-477A-9665-71DD90D5B414}&quot;&gt;&#xD;&#xA;  &lt;field id=&quot;{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}&quot; value=&quot;New item&quot; name=&quot;__Display name&quot; /&gt;&#xD;&#xA;&lt;/fields&gt;" />
+        <flowRenderedItemValues itemId="341fffb5-e1f0-4397-90ae-8756ce17a988" x="10" y="10" width="10" height="10" zIndex="6" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="c697f1f2-a235-4e8c-9d0a-0fe52020a898" x="15" y="19" width="10" height="10" zIndex="9" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="c0bb2359-61bb-4c81-aee2-7d7d6778dc02" x="27" y="22" width="10" height="10" zIndex="13" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+        <flowRenderedItemValues itemId="8481d13b-7e5c-48d2-853e-f2d741bd3cb9" x="22" y="29" width="10" height="10" zIndex="15" backgroundColor="#00FFFFFF" foregroundColor="#FFFFFFFF" iconUri="" showIcon="false" fieldEditorValues="" />
+      </flowRenderedItemsValues>
+    </flowDesignerItems>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171026T061047Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{EDCBB550-BED3-490F-82B8-7B2F14CCD26E}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

@@ -1,0 +1,96 @@
+﻿---
+ID: "41c4c375-8d7e-458a-b10a-99e485f1ccd9"
+Parent: "8ac876e1-b493-4973-8a53-d70b1d8232dd"
+Template: "9d016889-9cc2-4719-8fa2-6890fba3f185"
+Path: "/sitecore/content/Grandbasel/Home/aussteller-container/ausstellen"
+DB: master
+SharedFields:
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{D815B6CD-CA42-4542-AF7C-C342EF06B5D6}"
+        name="Grandbasel"
+        presets="adam the exhibitor|70||camille the reporter|30||">
+        <key
+          name="Exhibitor"
+          value="4.1" />
+        <key
+          name="Press Needs"
+          value="2.9" />
+        <key
+          name="Visitor"
+          value="2" />
+      </profile>
+    </tracking>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{6941B675-5A14-49E1-8D9A-7300A5A1121F}"
+              p:before="*"
+              s:ds="{964F13E7-49B9-48BD-A28B-E3B2D175C5EF}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:par="Background&amp;Class={807228CB-64A6-49F4-801D-C443A0CEAF17}&amp;Fixed height"
+              s:ph="/page-layout/section-narrow/col-wide-1_7becb571-bfa3-4f0c-8ecd-12992edab37e" />
+            <r
+              uid="{0506A070-7D08-4D43-8996-80FAD4610309}"
+              p:after="r[@uid='{6941B675-5A14-49E1-8D9A-7300A5A1121F}']"
+              s:ds="{238669A2-B1CA-471F-B3E9-1323D1D31987}"
+              s:id="{781C6B36-4B02-46EA-8ADC-B92A11877F10}"
+              s:ph="/page-layout/section-narrow/col-wide-1_7becb571-bfa3-4f0c-8ecd-12992edab37e" />
+            <r
+              uid="{7BECB571-BFA3-4F0C-8ECD-12992EDAB37E}"
+              p:after="r[@uid='{0506A070-7D08-4D43-8996-80FAD4610309}']"
+              s:ds="{964F13E7-49B9-48BD-A28B-E3B2D175C5EF}"
+              s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
+              s:par="UseStaticPlaceholderNames"
+              s:ph="/page-layout/section-narrow" />
+          </d>
+        </r>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Ausstellen
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170901T083449Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: 
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: ausstellen
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <div class="styled-h1">
+        <h1>
+        <span class="CustomStyle1">Deshalb</span> <span class="CustomStyle2">lohnt sich eine</span> <span class="CustomStyle3">Teilnahme</span></h1>
+        <p>Neue Geschäftsmodelle, Prozesse und Marktteilnehmer sorgen auf allen Stufen der Wertschöpfungskette für Veränderung. Diskutieren Sie mit und seien Sie Teil der neuen Energiekonzepte und Lösungen. Profitieren Sie von qualitativen Fachvorträgen, regem Austausch in den Networking-Zonen und den informativen Firmenpräsentationen.</p>
+        <p>Die Powertage..</p>
+        <ul>
+            <li>ist die grösste und bedeutendste Fachmesse für die Schweizer Stromwirtschaft</li>
+            <li>veranstaltet ein qualitativ hochstehendes Fachforum</li>
+            <li>bietet einen regen Erfahrungsaustausch</li>
+        </ul>
+        <p>Wir laden Sie herzlich ein, an den Powertagen vom 5. bis 7. Juni 2018, am Dialog teilzunehmen, Ihr Angebot vorzustellen und über konkrete Lösungen zu diskutieren. </p>
+        </div>

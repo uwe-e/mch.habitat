@@ -40,7 +40,13 @@
                 items.Items[i].IsActive = i == items.Items.Count - 1;
             }
 
-            return items;
+            return new NavigationItems
+            {
+                Items = items.Items.Where(itm => IsItemInBreadcrumb(itm.Item)).ToList()
+            };
+            //return items.Items.Where(itm => IsItemInBreadcrumb(itm.Item));
+
+            //return items;
         }
 
         public NavigationItems GetPrimaryMenu()
@@ -141,6 +147,11 @@
         private bool IsItemActive(Item item)
         {
             return this.ContextItem.ID == item.ID || this.ContextItem.Axes.GetAncestors().Any(a => a.ID == item.ID);
+        }
+
+        private bool IsItemInBreadcrumb(Item item)
+        {
+            return item.Fields[Templates.Navigable.Fields.ShowInBreadcrumb].IsChecked();
         }
     }
 }

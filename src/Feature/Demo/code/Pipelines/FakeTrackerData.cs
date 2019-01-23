@@ -118,6 +118,7 @@ namespace Sitecore.Feature.Demo.Pipelines
             ParseReferrerPipeline.Run(args);
         }
 
+        [Serializable]
         private class TrackerData
         {
             public Uri Referrer { get; set; }

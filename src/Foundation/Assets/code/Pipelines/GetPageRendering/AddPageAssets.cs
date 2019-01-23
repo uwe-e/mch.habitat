@@ -35,28 +35,38 @@
             }
 
             //Add the global assets to the repository
-            AddAssetsToRepository(Sitecore.Context.Site.GetGlobalFolder());
+            AddAssetsToRepository(Sitecore.Context.Site.GetGlobalFolder(), false);
 
-            //each page can have an asset folder. This folder contains one ore more scripts or stylesheets.
+
+            //Get the inherited ancestor assets..
+            foreach (var itm in item.Axes.GetAncestors().Reverse())
+            {
+                if (itm != null)
+                {
+                    //and add it into the page content.
+                    AddAssetsToRepository(item, true);
+                }
+            }
+            //Each page can have an asset folder. This folder contains one ore more scripts or stylesheets.
             //These assets are added into the page content
-            AddAssetsToRepository(item);
+            AddAssetsToRepository(item, false);
         }
 
-        private void AddAssetsToRepository(Item item)
+        private void AddAssetsToRepository(Item item, bool isRecursion)
         {
             if (item != null)
             {
                 var assetFolder = item.Children.Where(itm => itm.IsDerived(Templates.AssetFolder.ID)).FirstOrDefault();
                 if (assetFolder != null)
                 {
-                    AddScriptAssets(assetFolder);
-                    AddStyleAssets(assetFolder);
-                    AddPlainTextAssets(assetFolder);
+                    AddScriptAssets(assetFolder, isRecursion);
+                    AddStyleAssets(assetFolder, isRecursion);
+                    AddPlainTextAssets(assetFolder, isRecursion);
                 }
             }
         }
 
-        private void AddScriptAssets(Item folder)
+        private void AddScriptAssets(Item folder, bool isRecursion)
         {
             var scripts = folder?.Children.Where(itm => itm.IsDerived(Templates.ScriptAsset.ID)).ToList();
             if (scripts != null)
@@ -65,22 +75,32 @@
                 {
                     if (itm != null)
                     {
-                        string inlineScript = itm.Fields[Templates.ScriptAsset.Fields.Code].Value;
-                        if (!string.IsNullOrEmpty(inlineScript))
+                        var addAsset = true;
+                        // Recursions are ancestor item
+                        if (isRecursion)
                         {
-                            AssetRepository.Current.AddInlineScript(inlineScript, GetScriptLocation(itm), true);
+                            //if the ancestor asset is inherited
+                            addAsset = MainUtil.GetBool(itm[Templates.AssetBase.Fields.InheritAsset], false);
                         }
-                        string file = itm.Fields[Templates.ScriptAsset.Fields.Src].Value;
-                        if (!string.IsNullOrEmpty(file))
+                        if (addAsset)
                         {
-                            AssetRepository.Current.AddScriptFile(file, GetScriptLocation(itm), true);
+                            string inlineScript = itm.Fields[Templates.ScriptAsset.Fields.Code].Value;
+                            if (!string.IsNullOrEmpty(inlineScript))
+                            {
+                                AssetRepository.Current.AddInlineScript(inlineScript, GetScriptLocation(itm), true);
+                            }
+                            string file = itm.Fields[Templates.ScriptAsset.Fields.Src].Value;
+                            if (!string.IsNullOrEmpty(file))
+                            {
+                                AssetRepository.Current.AddScriptFile(file, GetScriptLocation(itm), true);
+                            }
                         }
                     }
                 });
             }
         }
 
-        private void AddStyleAssets(Item folder)
+        private void AddStyleAssets(Item folder, bool isRecursion)
         {
             var styles = folder?.Children.Where(itm => itm.IsDerived(Templates.StyleAsset.ID)).ToList();
             if (styles != null)
@@ -89,22 +109,32 @@
                 {
                     if (itm != null)
                     {
-                        string inlineStyle = itm.Fields[Templates.StyleAsset.Fields.InlineStyle].Value;
-                        if (!string.IsNullOrEmpty(inlineStyle))
+                        var addAsset = true;
+                        // Recursions are ancestor item
+                        if (isRecursion)
                         {
-                            AssetRepository.Current.AddInlineStyling(inlineStyle, true);
+                            //if the ancestor asset is inherited
+                            addAsset = MainUtil.GetBool(itm[Templates.AssetBase.Fields.InheritAsset], false);
                         }
-                        string file = itm.Fields[Templates.StyleAsset.Fields.Href].Value;
-                        if (!string.IsNullOrEmpty(file))
+                        if (addAsset)
                         {
-                            AssetRepository.Current.AddStylingFile(file, true);
+                            string inlineStyle = itm.Fields[Templates.StyleAsset.Fields.InlineStyle].Value;
+                            if (!string.IsNullOrEmpty(inlineStyle))
+                            {
+                                AssetRepository.Current.AddInlineStyling(inlineStyle, true);
+                            }
+                            string file = itm.Fields[Templates.StyleAsset.Fields.Href].Value;
+                            if (!string.IsNullOrEmpty(file))
+                            {
+                                AssetRepository.Current.AddStylingFile(file, true);
+                            }
                         }
                     }
                 });
             }
         }
 
-        private void AddPlainTextAssets(Item folder)
+        private void AddPlainTextAssets(Item folder, bool isRecursion)
         {
             var rawAssets = folder?.Children.Where(itm => itm.IsDerived(Templates.PlainTextAsset.ID)).ToList();
             if (rawAssets != null)
@@ -113,10 +143,20 @@
                 {
                     if (itm != null)
                     {
-                        string rawText = itm.Fields[Templates.PlainTextAsset.Fields.Text].Value;
-                        if (!string.IsNullOrEmpty(rawText))
+                        var addAsset = true;
+                        // Recursions are ancestor item
+                        if (isRecursion)
                         {
-                            AssetRepository.Current.AddPlainText(rawText, true);
+                            //if the ancestor asset is inherited
+                            addAsset = MainUtil.GetBool(itm[Templates.AssetBase.Fields.InheritAsset], false);
+                        }
+                        if (addAsset)
+                        {
+                            string rawText = itm.Fields[Templates.PlainTextAsset.Fields.Text].Value;
+                            if (!string.IsNullOrEmpty(rawText))
+                            {
+                                AssetRepository.Current.AddPlainText(rawText, true);
+                            }
                         }
                     }
                 });

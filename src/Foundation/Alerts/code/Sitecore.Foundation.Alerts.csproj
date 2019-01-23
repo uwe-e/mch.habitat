@@ -117,7 +117,9 @@
     <Content Include="Views\Alerts\InfoMessage.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Foundation\Foundation.Alerts.config" />
+    <Content Include="App_Config\Include\Foundation\Foundation.Alerts.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Web.config">

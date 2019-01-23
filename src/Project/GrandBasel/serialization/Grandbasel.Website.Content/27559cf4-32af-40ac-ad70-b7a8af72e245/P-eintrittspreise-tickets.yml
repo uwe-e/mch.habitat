@@ -1,0 +1,33 @@
+﻿---
+ID: "506735b7-8085-498c-b2b0-3079be8dedb6"
+Parent: "27559cf4-32af-40ac-ad70-b7a8af72e245"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: "/sitecore/content/Grandbasel/Home/besuchen-container/besuchen/_Local/pc_allgemeine-informationen/P-eintrittspreise-tickets"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+- ID: "e8ab122c-6f54-4d4e-aec6-f81addc558fc"
+  Hint: TeaserLink
+  Value: |
+    <link text="Wie Sie ein Ticket kaufen können" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{EAF8EC95-6FB6-456D-8212-E3724A3ED529}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{9B440D4D-0891-4F22-AD25-3187D3DF17A1}" alt="" height="200" width="300" hspace="" vspace=""></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170915T125538Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: Eintrittspreise
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

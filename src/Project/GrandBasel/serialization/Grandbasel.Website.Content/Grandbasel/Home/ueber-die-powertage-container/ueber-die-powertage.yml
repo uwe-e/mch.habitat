@@ -1,0 +1,121 @@
+﻿---
+ID: "411afe6b-5350-4d54-87bd-6fbb56e95bdc"
+Parent: "e86c66ea-36c6-466a-940f-9bf268626a31"
+Template: "9d016889-9cc2-4719-8fa2-6890fba3f185"
+Path: "/sitecore/content/Grandbasel/Home/ueber-die-powertage-container/ueber-die-powertage"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{36FDC632-4C3D-45A1-882E-328C199AC459}"
+              p:before="*"
+              s:ds="{02574911-08BF-4C64-A83A-7C787E57B4AD}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:par="Background&amp;Class={C9608780-01FA-4B85-9155-9748C2967A53}&amp;Fixed height"
+              s:ph="/page-layout/section-narrow/col-wide-1_3e54f432-e860-4602-b6e6-98c07a2bbddd" />
+            <r
+              uid="{702EB553-E3A3-413C-AA8C-75B7E02609A1}"
+              p:after="r[@uid='{36FDC632-4C3D-45A1-882E-328C199AC459}']"
+              s:ds="{B2356E37-F74E-42C0-9689-ACD448B419A0}"
+              s:id="{781C6B36-4B02-46EA-8ADC-B92A11877F10}"
+              s:par="Background&amp;Class={807228CB-64A6-49F4-801D-C443A0CEAF17}"
+              s:ph="/page-layout/section-narrow/col-wide-1_3e54f432-e860-4602-b6e6-98c07a2bbddd" />
+            <r
+              uid="{B9A3BE35-551D-4126-8478-CE7CBF713EFD}"
+              p:after="r[@uid='{702EB553-E3A3-413C-AA8C-75B7E02609A1}']"
+              s:ds="{FBC596B6-1518-48A7-9A22-661ACFCB7FAF}"
+              s:id="{781C6B36-4B02-46EA-8ADC-B92A11877F10}"
+              s:par="Background&amp;Class={807228CB-64A6-49F4-801D-C443A0CEAF17}"
+              s:ph="/page-layout/section-narrow/col-wide-1_3e54f432-e860-4602-b6e6-98c07a2bbddd" />
+            <r
+              uid="{6EEA5D05-4D68-41BE-B3CB-C67D8799FB99}"
+              p:after="r[@uid='{B9A3BE35-551D-4126-8478-CE7CBF713EFD}']"
+              s:ds="{F1A15301-A647-4721-9AA5-D73CD9D6F6CA}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:par="Background&amp;Class={C9608780-01FA-4B85-9155-9748C2967A53}&amp;Fixed height"
+              s:ph="/page-layout/section-narrow/col-wide-1_3e54f432-e860-4602-b6e6-98c07a2bbddd" />
+            <r
+              uid="{68A795FA-2875-4A07-B307-A3352F7CCCC7}"
+              p:after="r[@uid='{6EEA5D05-4D68-41BE-B3CB-C67D8799FB99}']"
+              s:ds="{126DE4F3-A71D-4C3A-864B-9CB31589F59A}"
+              s:id="{F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}"
+              s:par="FormID&amp;ReadQueryString"
+              s:ph="/page-layout/section-narrow/col-wide-1_3e54f432-e860-4602-b6e6-98c07a2bbddd">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{98E32649-2BBF-41A7-9227-342AEC57236F}"
+                    s:name="Specify name...">
+                    <conditions>
+                      <condition
+                        uid="093783A71A1348F0846C2781C1E4B3B4"
+                        s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
+                        s:GoalId="{6F24A501-C09C-4C69-A8C6-94456A1CD8E7}"
+                        s:NumberOfElapsedDays="0"
+                        s:NumberOfElapsedDaysOperatorId="{B88CD556-082E-4385-BB76-E4D1B565F290}"
+                        s:NumberOfPastInteractionsOperatorId="{3627ED99-F454-4B83-841A-A0194F0FB8B4}"
+                        s:NumberOfPastInteractions="0" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="C16282B3FED9493CB594BC7EA3953BB6"
+                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="7E9BC5267A3845DB86CCF9E8D9CBE351"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{3E54F432-E860-4602-B6E6-98C07A2BBDDD}"
+              p:after="r[@uid='{68A795FA-2875-4A07-B307-A3352F7CCCC7}']"
+              s:ds=""
+              s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
+              s:par="UseStaticPlaceholderNames"
+              s:ph="/page-layout/section-narrow" />
+          </d>
+        </r>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Über die Powertage
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170901T083430Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Über die Powertage
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: "ueber-die-powertage"
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <div class="styled-h1">
+        <h1>
+        <span class="CustomStyle1">Wissenswertes</span> <span class="CustomStyle2">&uuml;ber die</span> <span class="CustomStyle3">Powertage</span></h1>
+        <p>Die Powertage sind der Branchentreffpunkt der Schweizer Stromwirtschaft und finden alle zwei Jahre in der Messe Z&uuml;rich statt. Das erfolgreiche Veranstaltungskonzept mit seinem Mix aus Fachvortr&auml;gen,&nbsp;Austausch und Firmenpr&auml;sentationen unterst&uuml;tzt die Vernetzung und bietet&nbsp;einen umfassenden &Uuml;berblick &uuml;ber technische Trends, politische Weichenstellungen&nbsp;und die aktuellen unternehmerischen Herausforderungen.</p>
+        </div>
