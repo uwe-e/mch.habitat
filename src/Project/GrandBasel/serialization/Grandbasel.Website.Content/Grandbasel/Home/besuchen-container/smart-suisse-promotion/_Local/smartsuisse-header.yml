@@ -13,9 +13,6 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: "0ecd00b4-da0e-44aa-abbe-1e485dffedaf"
-      Hint: Body
-      Value: 
     - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
       Hint: TeaserImage
       Value: |

@@ -9,7 +9,7 @@ SharedFields:
   Hint: __Sortorder
   Value: 200
 - ID: "cd784129-580b-4bb9-8770-085243937369"
-  Hint: href
+  Hint: Href
   Value: "https://lib.messe.ch/ajax/libs/jquery-ui/1.11.4/mch-jquery-ui.css"
 Languages:
 - Language: en

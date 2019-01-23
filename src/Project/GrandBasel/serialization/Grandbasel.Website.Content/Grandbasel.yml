@@ -14,6 +14,14 @@ SharedFields:
   Value: 1099
 Languages:
 - Language: en
+  Fields:
+  - ID: "2a84eca4-68bb-4451-b4ac-98ea71a5a3dc"
+    Hint: SiteProfiles
+    Type: Multilist
+    Value: "{D815B6CD-CA42-4542-AF7C-C342EF06B5D6}"
+  - ID: "53b5af0a-265f-4e60-b2b2-4576ce0beccf"
+    Hint: Theme
+    Value: 
   Versions:
   - Version: 1
     Fields:

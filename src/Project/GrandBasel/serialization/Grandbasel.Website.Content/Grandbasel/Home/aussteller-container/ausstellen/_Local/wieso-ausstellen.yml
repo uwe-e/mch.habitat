@@ -13,16 +13,6 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: "0ecd00b4-da0e-44aa-abbe-1e485dffedaf"
-      Hint: Body
-      Value: |
-        <p>Die Powertage 2016 wurden von &uuml;ber 2'000 Branchenexperten und Interessierten aus Politik, Wirtschaft, Industrie und Gemeinden besucht. Es waren drei dynamische Messetage, die aufzeigten, dass die Energiebranche in Bewegung ist und dass es wichtig ist, den Weg in die Energiezukunft miteinander zu gehen.</p>
-        <ul>
-            <li>Kunden: Fachbesucher aus Elektrizit&auml;tsversorgungsunternehmen und Strombewirtschaftung sind gespannt auf drei Tage Networking.</li>
-            <li>Netzwerk: F&uuml;hren Sie einen direkten Dialog mit allen Marktpartnern und nutzen Sie die Powertage als Informations- und Kommunikationsplattform.</li>
-            <li>Kraft der Branche: Der ganzheitliche Auftritt der Versorgungsunternehmen schafft Vertrauen, Glaubw&uuml;rdigkeit und einen starken Zusammenhalt der Branche.</li>
-            <li>Werbewirkung: Durch Ihren Auftritt zur richtigen Zeit und am richtigen Ort erhalten Sie die optimale Positionierung Ihrer Firma.</li>
-        </ul>
     - ID: "13d97a52-7c4e-407c-960d-fadde8a3c1b1"
       Hint: TeaserSummary
       Value: 

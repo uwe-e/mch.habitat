@@ -5,6 +5,10 @@ Template: "94fd1606-139e-46ee-86ff-bc5bf3c79804"
 Path: /sitecore/system/Marketing Control Panel/Campaigns/Habitat/Register page
 DB: master
 SharedFields:
+- ID: "a0cb3965-8884-4c7a-8815-b6b2e5ced162"
+  Hint: __Editors
+  Type: TreelistEx
+  Value: 
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{689E2994-4656-4C58-9112-7826CB46EE69}"
