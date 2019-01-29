@@ -37,14 +37,15 @@ Languages:
               s:par="Background&amp;Fixed height&amp;Class={807228CB-64A6-49F4-801D-C443A0CEAF17}&amp;Additional Class"
               s:ph="/page-layout/section-narrow/col-wide-1_fb362d7f-6ed9-484b-b04e-afbf60dad1ae" />
             <r
-              uid="{3732D071-6C88-4456-98C5-D0E3FF7723F9}"
+              uid="{92945089-583E-4F37-9805-5ABF3882DE42}"
               p:after="r[@uid='{5FABE77C-49C5-4BD8-A88C-3157251CC380}']"
               s:ds="{63794A05-7329-40D0-ACDB-B24791C87573}"
-              s:id="{781C6B36-4B02-46EA-8ADC-B92A11877F10}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:par="Background&amp;Fixed height&amp;Class={8C93EF2A-720A-4DBC-848B-454E09AA643A}&amp;Additional Class"
               s:ph="/page-layout/section-narrow/col-wide-1_fb362d7f-6ed9-484b-b04e-afbf60dad1ae" />
             <r
               uid="{FB362D7F-6ED9-484B-B04E-AFBF60DAD1AE}"
-              p:after="r[@uid='{3732D071-6C88-4456-98C5-D0E3FF7723F9}']"
+              p:after="r[@uid='{92945089-583E-4F37-9805-5ABF3882DE42}']"
               s:ds="{7BCB8AD0-01B1-411A-97C0-52864BD7C95F}"
               s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
               s:par="UseStaticPlaceholderNames"
@@ -66,11 +67,7 @@ Languages:
       Value: 
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: 
+      Value: smartSuisse Smart up Your City
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
-      Value: |
-        <div class="styled-h1">
-        <h1>
-        <span class="CustomStyle2">smartSuisse</span> <span class="CustomStyle3">Smart up Your City</span></h1>
-        </div>
+      Value: 

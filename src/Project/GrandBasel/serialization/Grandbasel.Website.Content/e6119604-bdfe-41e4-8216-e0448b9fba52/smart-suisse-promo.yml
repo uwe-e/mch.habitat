@@ -1,0 +1,33 @@
+﻿---
+ID: "a4f09ea1-e4a8-4f8b-a29a-59b56d720dfa"
+Parent: "e6119604-bdfe-41e4-8216-e0448b9fba52"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: "/sitecore/content/Grandbasel/Home/besuchen-container/eintrittspreise-und-tickets/_Local/smart-suisse-promo"
+DB: master
+SharedFields:
+- ID: "e8ab122c-6f54-4d4e-aec6-f81addc558fc"
+  Hint: TeaserLink
+  Value: |
+    <link text="Nutzen Sie den Powertage Rabatt" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{38F9678C-2FD2-48C4-A250-3EDEF7C63338}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ecd00b4-da0e-44aa-abbe-1e485dffedaf"
+      Hint: Body
+      Value: Reservieren Sie sich schon heute unverbindlich einen 15% Rabatt auf einen Teilnehmerplatz für den Kongress am 11. April 2018.
+    - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{06C441BC-2D06-4E1B-99F7-E567EBF92B6E}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180316T112345Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: Powertage Promotion Rabatt
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

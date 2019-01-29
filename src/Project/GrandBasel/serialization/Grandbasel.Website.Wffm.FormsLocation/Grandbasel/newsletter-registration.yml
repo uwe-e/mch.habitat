@@ -74,6 +74,9 @@ SharedFields:
         name="Newsletter Signup Powertage 2018"
         id="{6F24A501-C09C-4C69-A8C6-94456A1CD8E7}" />
     </tracking>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
 - ID: "faeacd39-b059-4f46-bec4-74ba468a97b8"
   Hint: Show Footer
   Type: Checkbox

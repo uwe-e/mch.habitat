@@ -1,0 +1,26 @@
+﻿---
+ID: "646ee91f-a85f-4a10-87dd-16d3f7fdd67e"
+Parent: "0104b057-903c-425e-a109-3bb4ef045979"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: "/sitecore/content/Grandbasel/Home/_Local/exhibitor-information-button"
+DB: master
+SharedFields:
+- ID: "e8ab122c-6f54-4d4e-aec6-f81addc558fc"
+  Hint: TeaserLink
+  Value: |
+    <link text="Wenn ich ausstellen möchte,..." anchor="" linktype="internal" class="buttonhero sticky arrow" title="" target="" querystring="" id="{A2270636-3EB7-40A0-82A7-CABC84F7CEEC}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170927T060600Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

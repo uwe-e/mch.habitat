@@ -1,0 +1,25 @@
+﻿---
+ID: "d390c4e7-2cd4-4b04-af2c-3688885842b5"
+Parent: "c8a83114-a9ff-43d3-876c-e664efaccba7"
+Template: "c18d3794-d126-4548-bfc8-89358de6e9c1"
+Path: "/sitecore/content/Grandbasel/Global/Media/Home Page Slider/Carousel-exhibitor"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180119T123250Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826
+    - ID: "72ea8682-24d2-4beb-951c-3e2164974105"
+      Hint: MediaSelector
+      Type: Multilist
+      Value: |
+        {B59F8A01-CE6A-4EEB-8712-F807A1C5D9AD}
+        {DE1A04CF-930E-4FC3-8E17-125A8EC3E316}
+        {9E5CC1AF-8CBB-448E-A316-DEA4C22875B8}

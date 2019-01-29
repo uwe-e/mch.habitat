@@ -4,6 +4,10 @@ Parent: "d81ac026-07b6-4929-9588-40acbdc56435"
 Template: "c0a68a37-3c0a-4eeb-8f84-76a7df7c840e"
 Path: /sitecore/system/Modules/Web Forms for Marketers/Grandbasel
 DB: master
+SharedFields:
+- ID: "5337e30d-bffb-4605-9a3a-f9273180c26e"
+  Hint: MVC Form Type
+  Value: "{9B41AAEC-93DB-451F-AD33-630738A4EAFC}"
 Languages:
 - Language: en
   Versions:

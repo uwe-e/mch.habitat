@@ -14,9 +14,8 @@ SharedFields:
         uid="{3DC9E917-F285-4701-A53F-13D5BD81516D}">
         <conditions>
           <condition
-            id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}"
-            uid="0C132935F02B4370825473DF8139029E"
-            GoalId="{66722F52-2D13-4DCC-90FC-EA7117CF2298}" />
+            id="{4888ABBB-F17D-4485-B14B-842413F88732}"
+            uid="6E13AAE0888948338BDB029F19CEDFB4" />
         </conditions>
       </rule>
     </ruleset>
@@ -31,7 +30,7 @@ SharedFields:
   Value: 0
 - ID: "d2368879-c784-4031-9b79-6a3bf3cb444e"
   Hint: Next state
-  Value: "9d643f31-bd9d-4b8f-89e7-5b4c210fbffd"
+  Value: "04c38ad5-f285-430c-ab3b-4d321878cb64"
 - ID: "e13dcd09-d9bb-43c9-8d7d-438c79d714ca"
   Hint: Evaluate
   Value: "{B81C1F4C-8B83-44D9-902F-448463DBCCBC}"
@@ -40,10 +39,10 @@ Languages:
   Fields:
   - ID: "06f2d72a-1924-4b9a-ba1e-186ce4e57efd"
     Hint: Description
-    Value: "Has the users loged in?"
+    Value: 
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Login
+    Value: Ja
   Versions:
   - Version: 1
     Fields:

@@ -2,7 +2,7 @@
 ID: "9e5cc1af-8cbb-448e-a316-dea4c22875b8"
 Parent: "c8a83114-a9ff-43d3-876c-e664efaccba7"
 Template: "f0369e1a-9030-4a05-a09c-ef09b664ed27"
-Path: /sitecore/content/Grandbasel/Global/Media/Home Page Slider/Hydro
+Path: /sitecore/content/Grandbasel/Global/Media/Home Page Slider/powertage
 DB: master
 Languages:
 - Language: en
@@ -15,8 +15,10 @@ Languages:
     - ID: "302c9f8d-f703-4f76-a4ab-73d222648232"
       Hint: MediaDescription
       Value: |
+        <div class="carousel-text">
         <p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
         <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut.</p>
+        </div>
     - ID: "4ff62b0a-d73b-4436-bea2-023154f2ffc4"
       Hint: MediaThumbnail
       Value: |

@@ -86,15 +86,10 @@ Languages:
         meba\u20826
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: 
+      Value: Entscheidungsgrundlagen auf einen Blick
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: "powertage-in-zahlen"
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
-      Value: |
-        <div class="styled-h1">
-        <h1>
-        <span class="CustomStyle1">Entscheidungs-</span> <span class="CustomStyle2">grundlagen</span> <span class="CustomStyle3">auf einen Blick</span></h1>
-        <p>Nachfolgend haben wir Ihnen die wichtigsten Zahlen aus der unabhängigen Aussteller- und Besucherumfrage 2016 zusammengestellt.</p>
-        </div>
+      Value: "<p>Nachfolgend haben wir Ihnen die wichtigsten Zahlen aus der unabh&auml;ngigen Aussteller- und Besucherumfrage 2016 zusammengestellt.</p>"

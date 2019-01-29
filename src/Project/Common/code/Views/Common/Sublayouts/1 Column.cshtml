@@ -2,10 +2,10 @@
 @using Sitecore.Foundation.SitecoreExtensions.Extensions
 @using Sitecore.Foundation.Theming.Extensions
 @model Sitecore.Mvc.Presentation.RenderingModel
-<div class="@Model.Rendering.GetContainerClass()">
-  <div class="row">
-    <div class="col-md-12">
-      @Html.Sitecore().DynamicPlaceholder("col-huge", Model.Rendering.GetUseStaticPlaceholderNames())
+<div class="@Model.Rendering.GetContainerClass() @Model.Rendering.GetCustomStyle()">
+    <div class="row">
+        <div class="col-md-12">
+            @Html.Sitecore().DynamicPlaceholder("col-huge", Model.Rendering.GetUseStaticPlaceholderNames())
+        </div>
     </div>
-  </div>
 </div>

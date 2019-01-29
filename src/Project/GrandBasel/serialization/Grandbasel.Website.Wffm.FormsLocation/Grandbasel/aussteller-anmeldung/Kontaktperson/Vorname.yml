@@ -25,10 +25,15 @@ SharedFields:
         name="New Condition">
         <actions>
           <action
-            id="{A56021D3-AFAA-4FFE-8047-D99C7CA2AE35}"
-            uid="D7C90685F9544A77944F8719636BCB2E"
-            Name="vname" />
+            id="{A69509DC-97B8-42F2-9071-C08264D1F76F}"
+            uid="F830BF49DC8041FD94CE6AB96CEBBF91"
+            Name="Personal/FirstName" />
         </actions>
+        <conditions>
+          <condition
+            id="{4888ABBB-F17D-4485-B14B-842413F88732}"
+            uid="60710F6985C04334B56276C1159EB9EA" />
+        </conditions>
       </rule>
     </ruleset>
 Languages:

@@ -94,12 +94,10 @@ Languages:
         meba\u20826
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: 
+      Value: Allgemeine Teilnahmebedingungen
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
       Value: |
-        <div class="styled-h1">
-        <h1><span class="CustomStyle3">Allgemeine Teilnahmebedingungen</span></h1>
         <p>Bitte beachten Sie folgende Hinweise. Der Beirat hat sich f&uuml;r ein einheitliches Konzept entschieden. Dies bedeutet:</p>
         <ul class="styled-ul">
             <li>Ein Unternehmen kann nur mit einem Standpaket an den Powertagen 2018 teilnehmen.</li>
@@ -111,4 +109,3 @@ Languages:
             <li>Die Aussteller verpflichten sich jeden Abend bis zum Ende der Ausstellung zu bleiben. Das heisst, an allen drei Tagen bis 17.00 Uhr. Ein vorzeitiger Abbau ist nicht erlaubt!</li>
         </ul>
         <p>F&uuml;r die Powertage 2018 gelten die Bestimmungen des Ausstellerreglements und der Messebetriebsordnung der MCH Messe Basel.</p>
-        </div>

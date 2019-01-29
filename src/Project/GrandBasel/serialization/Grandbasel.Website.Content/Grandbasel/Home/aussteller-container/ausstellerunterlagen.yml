@@ -42,14 +42,137 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{0EAB8CC3-80B8-48EC-A736-AA0A760235D0}"
+              uid="{E2000C19-C681-4144-8267-2A91FED9CA0C}"
               p:before="*"
-              s:ds="{5AFE9D69-FDE8-4ADC-8323-A0B572EB7874}"
+              s:ds="{19FC93CF-903E-468A-A6F9-FD9A4A4BCFB1}"
+              s:id="{F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}"
+              s:ph="/page-layout/section-narrow/col-wide-1_a6f5080c-3bfb-4f4f-af2f-ae91bf42570e">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{231C8F85-AA93-4261-93BB-A4343C316263}"
+                    s:name="User not registered">
+                    <conditions>
+                      <or
+                        uid="93826166DA1B478193C45C03ECE68609">
+                        <condition
+                          uid="9825C96B0CF54001B9B85344D95A50FC"
+                          s:id="{D708FFF6-00C2-4C73-B257-92F0476BA603}"
+                          s:GoalId="{C97DCEDE-FC35-42D7-82E6-1B51C48FC085}" />
+                        <condition
+                          uid="99E1B5644EB14174825F79569D789285"
+                          s:id="{D708FFF6-00C2-4C73-B257-92F0476BA603}"
+                          s:GoalId="{12A7D5E4-6B9C-479A-A35B-ED566FE43D89}" />
+                      </or>
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="2D023A6575FE47189D4B0A915DE5AD33"
+                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="C125F6F6E72F4E04961DC1E7087FD5B8"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{D67FF5AE-9401-4E62-9710-94393AA2E75C}"
+              p:after="r[@uid='{E2000C19-C681-4144-8267-2A91FED9CA0C}']"
+              s:ds="{8BB8E4A1-F101-4C51-9B10-42E0C51DE735}"
               s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
-              s:ph="/page-layout/section-narrow/col-wide-1_a6f5080c-3bfb-4f4f-af2f-ae91bf42570e" />
+              s:par="Background&amp;Fixed height&amp;Class={C9608780-01FA-4B85-9155-9748C2967A53}&amp;Additional Class"
+              s:ph="/page-layout/section-narrow/col-wide-1_a6f5080c-3bfb-4f4f-af2f-ae91bf42570e">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{891E7E6B-8DF2-4E56-8798-C814D5B8E97A}"
+                    s:name="Not registered for the exhibition but registered for download">
+                    <conditions>
+                      <and
+                        uid="E1674B71C14F4F41A2B3CE423317CAFB">
+                        <condition
+                          uid="796C00F75CCA4FF5AFCB68EA1C211184"
+                          s:id="{D708FFF6-00C2-4C73-B257-92F0476BA603}"
+                          s:GoalId="{C97DCEDE-FC35-42D7-82E6-1B51C48FC085}" />
+                        <condition
+                          uid="48E01081D1A24EFD9771EB5AFA185E73"
+                          s:id="{D708FFF6-00C2-4C73-B257-92F0476BA603}"
+                          s:except="true"
+                          s:GoalId="{12A7D5E4-6B9C-479A-A35B-ED566FE43D89}" />
+                      </and>
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="C60C3C0FAA324341AB97CD84E0CED25C"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="53CAB741BE1A4CE8A636DF02993A4261"
+                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{C8EB76BD-24BE-4417-82B4-D3F11AE961DE}"
+              p:after="r[@uid='{D67FF5AE-9401-4E62-9710-94393AA2E75C}']"
+              s:ds="{37BA608F-8412-4741-82F1-A252EF5EF9FD}"
+              s:id="{781C6B36-4B02-46EA-8ADC-B92A11877F10}"
+              s:ph="/page-layout/section-narrow/col-wide-1_a6f5080c-3bfb-4f4f-af2f-ae91bf42570e">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{9F066220-CE04-49F2-B92E-1B8BD6C40753}"
+                    s:name="Download Registered">
+                    <conditions>
+                      <or
+                        uid="B331A6FC1D7440EBBF6EAF4A4F2162EF">
+                        <condition
+                          uid="6522BF53953E4DF2844A71CEA6BE76AA"
+                          s:id="{D708FFF6-00C2-4C73-B257-92F0476BA603}"
+                          s:GoalId="{C97DCEDE-FC35-42D7-82E6-1B51C48FC085}" />
+                        <condition
+                          uid="10461A7D5A454BF0B118BF5C1DD2C716"
+                          s:id="{D708FFF6-00C2-4C73-B257-92F0476BA603}"
+                          s:GoalId="{12A7D5E4-6B9C-479A-A35B-ED566FE43D89}" />
+                      </or>
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="E6D7714C74A748CAB0360FC1D9DDF768"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="E4E436FB96034F10B15E305F143ED143"
+                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r
               uid="{A6F5080C-3BFB-4F4F-AF2F-AE91BF42570E}"
-              p:after="r[@uid='{0EAB8CC3-80B8-48EC-A736-AA0A760235D0}']"
+              p:after="r[@uid='{C8EB76BD-24BE-4417-82B4-D3F11AE961DE}']"
               s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
               s:ph="/page-layout/section-narrow" />
           </d>
@@ -73,16 +196,9 @@ Languages:
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
       Value: |
-        <div>Die Powertage ist die bedeutendste Fachmesse f&uuml;r die Schweizer Stromwirtschaft. Hier kommen alle Akteure zusammen, um sich auszutauschen, um Innovationen vorzustellen und kennenzulernen sowie um gemeinsam die neue Energiewelt voranzutreiben. Nutzen Sie die Chance und melden Sie sich gleich an.</div>
-        <p>In den Ausstellerunterlagen, bestehend aus der Ausstellerbrosch&uuml;re, Ausstellervertrag und den Reglementen, finden Sie alle wichtigen Informationen f&uuml;r Ihre Messeteilnahme kompakt zusammengefasst. Die Anmeldung zu den Powertagen 2018 steht Ihnen als beschreibbares PDF zur Verf&uuml;gung. Sie k&ouml;nnen dieses online ausf&uuml;llen und uns unterschrieben zukommen lassen. Bitte senden Sie die ausgef&uuml;llte und unterschriebene Anmeldung per <a href="mailto:info@powertage.ch?subject=Anmeldung%20Powertage%202018">E-Mail</a>, an die Faxnummer +41 (0)58 206 21 89 oder per Post an:</p>
+        <div>Die Powertage ist die bedeutendste Fachmesse für die Schweizer Stromwirtschaft. Hier kommen alle Akteure zusammen, um sich auszutauschen, um Innovationen vorzustellen und kennenzulernen sowie um gemeinsam die neue Energiewelt voranzutreiben. Nutzen Sie die Chance und melden Sie sich gleich an.</div>
+        <p>In den Ausstellerunterlagen, bestehend aus der Ausstellerbroschüre, Ausstellervertrag und den Reglementen, finden Sie alle wichtigen Informationen für Ihre Messeteilnahme kompakt zusammengefasst. Die Anmeldung zu den Powertagen 2018 steht Ihnen als beschreibbares PDF zur Verfügung. Sie können dieses online ausfüllen und uns unterschrieben zukommen lassen. Bitte senden Sie die ausgefüllte und unterschriebene Anmeldung per <a href="mailto:info@powertage.ch?subject=Anmeldung Powertage 2018">E-Mail</a>, an die Faxnummer <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">+41 (0)58 206 21 89<a title="Anrufen: +41 (0)58 206 21 89" style="margin: 0px; border: currentColor; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" href="#"><img title="Anrufen: +41 (0)58 206 21 89" style="margin: 0px; border: currentColor; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" /></a></span> oder per Post an:</p>
         <div> <br />
         MCH Messe Schweiz (Basel) AG<br />
         Powertage&nbsp;<br />
         CH-4005 Basel</div>
-        <h4>Downloads</h4>
-        <ul>
-            <li><a href="-/media/2DA7315249BB432F8BADC590D165D47A.ashx">Ausstellerbrosch&uuml;re</a></li>
-            <li><a href="-/media/7C78E6E5802F44E5A1A3743D18F0F783.ashx">Ausstellervertrag</a></li>
-            <li><a href="-/media/71A9517D8F3546EA854E68E67247502B.ashx">Ausstellerreglement</a></li>
-            <li><a href="-/media/47C03945B7324FD6AA46765AF03BAA3C.ashx" target="_blank">Betriebsordnung</a></li>
-        </ul>

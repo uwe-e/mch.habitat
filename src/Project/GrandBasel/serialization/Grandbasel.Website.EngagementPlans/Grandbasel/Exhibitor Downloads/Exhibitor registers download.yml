@@ -1,0 +1,41 @@
+﻿---
+ID: "1ffc8e01-1c5f-4cfb-a26c-eda8ae156be1"
+Parent: "a415806d-a40d-4243-99c6-7c739d45c7a4"
+Template: "8ce2707a-3742-4a89-933b-065e5be02bc9"
+Path: /sitecore/system/Marketing Control Panel/Engagement Plans/Grandbasel/Exhibitor Downloads/Exhibitor registers download
+DB: master
+SharedFields:
+- ID: "07ce07cb-078c-415e-8f92-96690babd6c7"
+  Hint: Time interval
+  Value: 0
+- ID: "3f72bc07-de92-483e-a724-d430769d9ba4"
+  Hint: Designer ID
+  Value: "72bc80d6-4b45-4931-9501-ebc03ddc6e37"
+- ID: "575a25c8-5c6f-4530-a48f-f38e23e9dbd5"
+  Hint: Page Event Subscription
+  Type: TreelistEx
+  Value: |
+    {C97DCEDE-FC35-42D7-82E6-1B51C48FC085}
+    {CE22484A-DB17-4918-AB61-BA813FAFD464}
+- ID: "7642ed71-348b-4b88-8634-cc7b28949472"
+  Hint: Origin ID
+  Value: "00000000-0000-0000-0000-000000000000"
+Languages:
+- Language: en
+  Fields:
+  - ID: "06f2d72a-1924-4b9a-ba1e-186ce4e57efd"
+    Hint: Description
+    Value: potentieller Aussteller registriert sich für den Download der Ausstellerunterlagen
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Download Registrierung
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180119T145247Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

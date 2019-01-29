@@ -22,8 +22,16 @@
     @Html.Sitecore().VisitorIdentification()
 </head>
 <body dir="@(CultureInfo.CurrentCulture.TextInfo.IsRightToLeft ? "rtl" : "ltr")" class="header-static @(Sitecore.Context.PageMode.IsNormal ? "" : (Sitecore.Context.PageMode.IsExperienceEditor ? "pagemode-edit" : "pagemode-preview"))">
-    <div>
-
+    <div id="main-container">
+        <header class="header-static pageheader">
+            @Html.Sitecore().Placeholder("header")
+        </header>
+        <main role="main">
+            @Html.Sitecore().Placeholder("page-layout")
+        </main>
+        <footer class="pagefooter">
+            @Html.Sitecore().Placeholder("footer")
+        </footer>
     </div>
     @RenderAssetsService.Current.RenderScript(ScriptLocation.Body)
 </body>

@@ -16,26 +16,7 @@ SharedFields:
 - ID: "a7f779b9-5fcf-45cc-866b-7c973f5c4fac"
   Hint: Save Actions
   Value: |
-    <?xml version="1.0" encoding="utf-16"?>
-    <li xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <g id="{E5EABB1F-40BC-45BB-8D87-3B6C239B521B}" displayName="Actions" onclick="javascript:return scForm.postEvent(this,event,'forms:addaction')">
-        <li id="{850B52F1-FBE5-4A89-998C-32DAD0364ABE}" unicid="0F9E326D032C4C0A80D3C4309C3FEE8A">
-          <parameters>&amp;lt;defaultprofileitemid&amp;gt;{38F813E8-8787-4CE5-B13F-6D0C554E7927}&amp;lt;/defaultprofileitemid&amp;gt;&amp;lt;usernamefield&amp;gt;{643B56D5-315E-44B7-B106-F5EFC52FD634}&amp;lt;/usernamefield&amp;gt;&amp;lt;domainfield&amp;gt;grandbasel&amp;lt;/domainfield&amp;gt;&amp;lt;auditfield&amp;gt;NoAudit&amp;lt;/auditfield&amp;gt;&amp;lt;passwordfield&amp;gt;randomPassword&amp;lt;/passwordfield&amp;gt;&amp;lt;associateuserwithvisitor&amp;gt;False&amp;lt;/associateuserwithvisitor&amp;gt;&amp;lt;overwriteprofile&amp;gt;False&amp;lt;/overwriteprofile&amp;gt;&amp;lt;mapping&amp;gt;&amp;lt;data&amp;gt;&amp;lt;field controlid=&amp;quot;fieldChoice0&amp;quot; fieldid=&amp;quot;{643B56D5-315E-44B7-B106-F5EFC52FD634}&amp;quot;&amp;gt;&amp;lt;profile controlid=&amp;quot;profileChoice0&amp;quot; fieldid=&amp;quot;Email&amp;quot;&amp;gt;&amp;lt;/profile&amp;gt;&amp;lt;/field&amp;gt;&amp;lt;/data&amp;gt;&amp;lt;/mapping&amp;gt;&amp;lt;profileitemid&amp;gt;{38F813E8-8787-4CE5-B13F-6D0C554E7927}&amp;lt;/profileitemid&amp;gt;</parameters>
-        </li>
-        <li id="{5D54629B-25A4-4107-B614-26F504830335}" unicid="4F270D7C594149C3B07736ABD48386E2">
-          <parameters>&amp;lt;mapping&amp;gt;[{&amp;quot;key&amp;quot;:&amp;quot;9ECE0CAA-45F5-40E4-8F77-150F729F87B3&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Personal/FirstName&amp;quot;,&amp;quot;id&amp;quot;:null},{&amp;quot;key&amp;quot;:&amp;quot;2207D2D5-354B-4222-B3D5-374DB89635D7&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Personal/Surname&amp;quot;,&amp;quot;id&amp;quot;:null},{&amp;quot;key&amp;quot;:&amp;quot;643B56D5-315E-44B7-B106-F5EFC52FD634&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Emails/Entries/SmtpAddress&amp;quot;,&amp;quot;id&amp;quot;:null},{&amp;quot;key&amp;quot;:&amp;quot;0A627A01-67A0-4E29-9810-750F3656DD8A&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Personal/Gender&amp;quot;,&amp;quot;id&amp;quot;:null}]&amp;lt;/mapping&amp;gt;</parameters>
-        </li>
-        <li id="{1B8ED61B-5B36-4C49-9736-2C4A87795D71}" unicid="DBE479323E164C7D8E3387D336A89E63">
-          <parameters>&amp;lt;engagementstate&amp;gt;7591eebd-2df6-4e75-9ca6-89e480cd6bdd&amp;lt;/engagementstate&amp;gt;&amp;lt;enrollwhen&amp;gt;Always&amp;lt;/enrollwhen&amp;gt;&amp;lt;__actionsubtitle&amp;gt;{AA24B853-A2A7-47F3-A0F6-1AFFB9F416F0}&amp;lt;/__actionsubtitle&amp;gt;</parameters>
-        </li>
-        <li id="{D4502A11-9417-4479-9F2A-485F45D2E2D0}" unicid="BB803EC4E55B4A46B13C4DDAE69C06CA">
-          <parameters>&amp;lt;from&amp;gt;noreply@powertage.ch&amp;lt;/from&amp;gt;&amp;lt;isbodyhtml&amp;gt;true&amp;lt;/isbodyhtml&amp;gt;&amp;lt;to&amp;gt;[{643B56D5-315E-44B7-B106-F5EFC52FD634}]&amp;lt;/to&amp;gt;&amp;lt;cc&amp;gt;&amp;lt;/cc&amp;gt;&amp;lt;bcc&amp;gt;&amp;lt;/bcc&amp;gt;&amp;lt;localfrom&amp;gt;noreply@powertage.ch&amp;lt;/localfrom&amp;gt;&amp;lt;subject&amp;gt;Reservierung Ihres Powertage Tickets&amp;lt;/subject&amp;gt;&amp;lt;mail&amp;gt;&amp;lt;p&amp;gt;Sehr geehrte/r [&amp;lt;label id=&amp;quot;{0A627A01-67A0-4E29-9810-750F3656DD8A}&amp;quot;&amp;gt;Anrede&amp;lt;/label&amp;gt;] [&amp;lt;label id=&amp;quot;{2207D2D5-354B-4222-B3D5-374DB89635D7}&amp;quot;&amp;gt;Name&amp;lt;/label&amp;gt;]&amp;lt;/p&amp;gt;
-    &amp;lt;p&amp;gt;vielen herzlichen Dank f&amp;#252;r die Reservierung des Powertage Tickets. Wir werden Sie&amp;#160;informieren, wenn die Tickets in unserem Ticketshop verf&amp;#252;gbar sind.&amp;lt;/p&amp;gt;
-    &amp;lt;p&amp;gt;Mit freundlichen Gr&amp;#252;ssen Ihre Powertage&amp;lt;/p&amp;gt;
-    &amp;lt;p&amp;gt;Uwe Eichkorn&amp;lt;/p&amp;gt;&amp;lt;/mail&amp;gt;</parameters>
-        </li>
-      </g>
-    </li>
+    <?xml version="1.0" encoding="utf-16"?><li xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  <g id="{E5EABB1F-40BC-45BB-8D87-3B6C239B521B}" displayName="Actions" onclick="javascript:return scForm.postEvent(this,event,'forms:addaction')">    <li id="{850B52F1-FBE5-4A89-998C-32DAD0364ABE}" unicid="0F9E326D032C4C0A80D3C4309C3FEE8A">      <parameters>&amp;lt;defaultprofileitemid&amp;gt;{38F813E8-8787-4CE5-B13F-6D0C554E7927}&amp;lt;/defaultprofileitemid&amp;gt;&amp;lt;usernamefield&amp;gt;{643B56D5-315E-44B7-B106-F5EFC52FD634}&amp;lt;/usernamefield&amp;gt;&amp;lt;domainfield&amp;gt;grandbasel&amp;lt;/domainfield&amp;gt;&amp;lt;auditfield&amp;gt;NoAudit&amp;lt;/auditfield&amp;gt;&amp;lt;passwordfield&amp;gt;randomPassword&amp;lt;/passwordfield&amp;gt;&amp;lt;associateuserwithvisitor&amp;gt;False&amp;lt;/associateuserwithvisitor&amp;gt;&amp;lt;overwriteprofile&amp;gt;False&amp;lt;/overwriteprofile&amp;gt;&amp;lt;mapping&amp;gt;&amp;lt;data&amp;gt;&amp;lt;field controlid=&amp;quot;fieldChoice0&amp;quot; fieldid=&amp;quot;{643B56D5-315E-44B7-B106-F5EFC52FD634}&amp;quot;&amp;gt;&amp;lt;profile controlid=&amp;quot;profileChoice0&amp;quot; fieldid=&amp;quot;Email&amp;quot;&amp;gt;&amp;lt;/profile&amp;gt;&amp;lt;/field&amp;gt;&amp;lt;/data&amp;gt;&amp;lt;/mapping&amp;gt;&amp;lt;profileitemid&amp;gt;{38F813E8-8787-4CE5-B13F-6D0C554E7927}&amp;lt;/profileitemid&amp;gt;</parameters>    </li>    <li id="{5D54629B-25A4-4107-B614-26F504830335}" unicid="4F270D7C594149C3B07736ABD48386E2">      <parameters>&amp;lt;mapping&amp;gt;[{&amp;quot;key&amp;quot;:&amp;quot;9ECE0CAA-45F5-40E4-8F77-150F729F87B3&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Personal/FirstName&amp;quot;,&amp;quot;id&amp;quot;:null},{&amp;quot;key&amp;quot;:&amp;quot;2207D2D5-354B-4222-B3D5-374DB89635D7&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Personal/Surname&amp;quot;,&amp;quot;id&amp;quot;:null},{&amp;quot;key&amp;quot;:&amp;quot;643B56D5-315E-44B7-B106-F5EFC52FD634&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Emails/Entries/SmtpAddress&amp;quot;,&amp;quot;id&amp;quot;:null},{&amp;quot;key&amp;quot;:&amp;quot;0A627A01-67A0-4E29-9810-750F3656DD8A&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Personal/Gender&amp;quot;,&amp;quot;id&amp;quot;:null}]&amp;lt;/mapping&amp;gt;</parameters>    </li>    <li id="{1B8ED61B-5B36-4C49-9736-2C4A87795D71}" unicid="DBE479323E164C7D8E3387D336A89E63">      <parameters>&amp;lt;engagementstate&amp;gt;7591eebd-2df6-4e75-9ca6-89e480cd6bdd&amp;lt;/engagementstate&amp;gt;&amp;lt;enrollwhen&amp;gt;Always&amp;lt;/enrollwhen&amp;gt;&amp;lt;__actionsubtitle&amp;gt;{AA24B853-A2A7-47F3-A0F6-1AFFB9F416F0}&amp;lt;/__actionsubtitle&amp;gt;</parameters>    </li>    <li id="{D4502A11-9417-4479-9F2A-485F45D2E2D0}" unicid="BB803EC4E55B4A46B13C4DDAE69C06CA">      <parameters>&amp;lt;from&amp;gt;noreply@powertage.ch&amp;lt;/from&amp;gt;&amp;lt;isbodyhtml&amp;gt;true&amp;lt;/isbodyhtml&amp;gt;&amp;lt;to&amp;gt;[{643B56D5-315E-44B7-B106-F5EFC52FD634}]&amp;lt;/to&amp;gt;&amp;lt;cc&amp;gt;&amp;lt;/cc&amp;gt;&amp;lt;bcc&amp;gt;&amp;lt;/bcc&amp;gt;&amp;lt;localfrom&amp;gt;noreply@powertage.ch&amp;lt;/localfrom&amp;gt;&amp;lt;subject&amp;gt;Reservierung Ihres Powertage Tickets&amp;lt;/subject&amp;gt;&amp;lt;mail&amp;gt;&amp;lt;p&amp;gt;Sehr geehrte/r [&amp;lt;label id=&amp;quot;{0A627A01-67A0-4E29-9810-750F3656DD8A}&amp;quot;&amp;gt;Anrede&amp;lt;/label&amp;gt;] [&amp;lt;label id=&amp;quot;{2207D2D5-354B-4222-B3D5-374DB89635D7}&amp;quot;&amp;gt;Name&amp;lt;/label&amp;gt;]&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;vielen herzlichen Dank f&amp;#252;r die Reservierung des Powertage Tickets. Wir werden Sie&amp;#160;informieren, wenn die Tickets in unserem Ticketshop verf&amp;#252;gbar sind.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Mit freundlichen Gr&amp;#252;ssen Ihre Powertage&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Uwe Eichkorn&amp;lt;/p&amp;gt;&amp;lt;/mail&amp;gt;</parameters>    </li>  </g></li>
 - ID: "af08c32b-f101-44a4-baae-677383e8eb02"
   Hint: Check Actions
   Value: |
@@ -76,6 +57,12 @@ SharedFields:
         name="Ticket Pre- Reservation"
         id="{0E59F159-0811-4CA3-8516-A72EF0B3CF61}" />
     </tracking>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+- ID: "d755de87-9c62-4eb3-83dc-2293784a3a3f"
+  Hint: Success Mode
+  Value: "{F4D50806-6B89-4F2D-89FE-F77FC0A07D48}"
 - ID: "faeacd39-b059-4f46-bec4-74ba468a97b8"
   Hint: Show Footer
   Type: Checkbox
@@ -106,4 +93,4 @@ Languages:
     - ID: "9c4c1994-5140-49d3-bad7-db997816f816"
       Hint: Success Page
       Value: |
-        <link id="{00000000-0000-0000-0000-000000000000}" />
+        <link url="/sitecore/content/Grandbasel/Home/besuchen-container/eintrittspreise-und-tickets" id="{EAF8EC95-6FB6-456D-8212-E3724A3ED529}" />

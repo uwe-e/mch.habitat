@@ -1,8 +1,8 @@
 ﻿---
-ID: "f4e0744a-67aa-4e1e-bbc9-0bf7a318c71e"
+ID: "5547b893-ad0f-4a35-84a5-3dd70a41eb73"
 Parent: "be4e8658-8d71-4ef5-b7ef-ef0f109d0bc4"
 Template: "8ce2707a-3742-4a89-933b-065e5be02bc9"
-Path: "/sitecore/system/Marketing Control Panel/Engagement Plans/Grandbasel/Exhibitor Registration/First Engagement - Second State"
+Path: /sitecore/system/Marketing Control Panel/Engagement Plans/Grandbasel/Exhibitor Registration/Ausstelleranmeldung
 DB: master
 SharedFields:
 - ID: "07ce07cb-078c-415e-8f92-96690babd6c7"
@@ -10,22 +10,26 @@ SharedFields:
   Value: 0
 - ID: "3f72bc07-de92-483e-a724-d430769d9ba4"
   Hint: Designer ID
-  Value: "9d643f31-bd9d-4b8f-89e7-5b4c210fbffd"
+  Value: "04c38ad5-f285-430c-ab3b-4d321878cb64"
 - ID: "7642ed71-348b-4b88-8634-cc7b28949472"
   Hint: Origin ID
   Value: "00000000-0000-0000-0000-000000000000"
 Languages:
 - Language: en
   Fields:
+  - ID: "06f2d72a-1924-4b9a-ba1e-186ce4e57efd"
+    Hint: Description
+    Value: |
+      Der nun angemeldete Aussteller wird in den finalen State im Plan "Exhibitor Downloads" verschoben
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "First Engagement - Second State"
+    Value: Ausstelleranmeldung
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20171004T122211Z
+      Value: 20180315T140620Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

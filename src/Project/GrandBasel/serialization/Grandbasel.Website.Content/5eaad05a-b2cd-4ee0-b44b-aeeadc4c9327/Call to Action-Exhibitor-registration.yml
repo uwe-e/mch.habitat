@@ -1,0 +1,33 @@
+﻿---
+ID: "8bb8e4a1-f101-4c51-9b10-42e0c51de735"
+Parent: "5eaad05a-b2cd-4ee0-b44b-aeeadc4c9327"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: "/sitecore/content/Grandbasel/Home/aussteller-container/ausstellerunterlagen/_Local/Call to Action-Exhibitor-registration"
+DB: master
+SharedFields:
+- ID: "e8ab122c-6f54-4d4e-aec6-f81addc558fc"
+  Hint: TeaserLink
+  Value: |
+    <link text="Melden Sie sich jetzt als Aussteller an!" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{D4528F73-D7EF-4012-89BF-95BF68A5BD33}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ecd00b4-da0e-44aa-abbe-1e485dffedaf"
+      Hint: Body
+      Value: <p>Wir laden Sie herzlich ein, an den Powertagen vom 5. bis 7. Juni 2018, am Dialog teilzunehmen, Ihr Angebot vorzustellen und &uuml;ber konkrete L&ouml;sungen zu diskutieren.</p>
+    - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{9EF927AA-904B-4E49-89D5-79DDAED2D59D}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180317T170452Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

@@ -45,14 +45,10 @@ Languages:
         meba\u20826
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: 
+      Value: Wann Sie die Powertage besuchen können
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
       Value: |
-        <div class="styled-h1">
-        <h1>
-        <span class="CustomStyle1">Wann Sie</span> <span class="CustomStyle2">die Powertage</span> <span class="CustomStyle3">besuchen können</span></h1>
-        <div>
         <h3>Dienstag, 5. bis Donnerstag, 7. Juni 2018</h3>
         <p><strong>Fachforum, Halle 7</strong><br />
         T&uuml;r&ouml;ffnung/Registration: t&auml;glich ab 8.00 Uhr<br />
@@ -67,5 +63,3 @@ Languages:
         <br />
         <br />
         </p>
-        </div>
-        </div>

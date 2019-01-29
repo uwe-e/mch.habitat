@@ -1,0 +1,31 @@
+﻿---
+ID: "b59f8a01-ce6a-4eeb-8712-f807a1c5d9ad"
+Parent: "c8a83114-a9ff-43d3-876c-e664efaccba7"
+Template: "f0369e1a-9030-4a05-a09c-ef09b664ed27"
+Path: "/sitecore/content/Grandbasel/Global/Media/Home Page Slider/exhibitor-powertage2"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170918T104026Z
+    - ID: "302c9f8d-f703-4f76-a4ab-73d222648232"
+      Hint: MediaDescription
+      Value: |
+        <div class="carousel-text">
+        <p>Das Veranstaltungskonzept ist auf den Eckpfeilern Forum, Networking und Ausstellung aufgebaut. Die konzeptionelle Entwicklung deckt die Bed&uuml;rfnisse der Zielgruppen noch besser ab und festigt die Bedeutung als Treffpunkt f&uuml;r die Schweizer Stromwirtschaft.</p>
+        </div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826
+    - ID: "63dda48b-b0cb-45a7-9a1b-b26ddb41009b"
+      Hint: MediaTitle
+      Value: Das Veranstaltungskonzept
+    - ID: "9f51dead-ad6e-41c2-9759-7be17eb474a4"
+      Hint: MediaImage
+      Value: |
+        <image mediaid="{2CEECFFB-DFA1-4AF8-A92E-568BFA3153E1}" alt="" height="718" width="1920" hspace="" vspace="" />

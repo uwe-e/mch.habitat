@@ -1,16 +1,16 @@
 ﻿---
-ID: "3c628062-dc86-477b-a4ca-e5179ecfc0b3"
-Parent: "b4806660-bfe3-49c1-be13-da7871d96712"
+ID: "e786781b-1359-4c4b-9f75-040d439a0ce9"
+Parent: "0210497a-9b7a-4e70-8b67-d4645782378f"
 Template: "8c5ead00-5f68-4310-ab0c-84f283b5ee0a"
-Path: "/sitecore/system/Marketing Control Panel/Engagement Plans/Grandbasel/Exhibitor Registration/New item/New item/Send E-Mail Message"
+Path: "/sitecore/system/Marketing Control Panel/Engagement Plans/Grandbasel/Only Engagement/2nd State/New item/Send E-Mail Message"
 DB: master
 SharedFields:
 - ID: "1507131d-cee3-49e9-af32-de5403a37b49"
   Hint: Parameters
-  Value: "AutomationActionDescription=Mail from Engagement&Subject=Mail from Engagement&Content=%3cp%3ethis+is+the+mail+body%3c%2fp%3e%0a%3cp%3e%26nbsp%3bregards%3c%2fp%3e%0a%3cp%3eyour+system%3c%2fp%3e&FixedEmail=uwe.eichkorn@mch-group.com&FromName=Engagement Plan&FromEmail=noreply@messe.ch&BaseSiteURL=http://mch.grandbasel.dev.local"
+  Value: "AutomationActionDescription=mal seh'n&Subject=mal seh'n&Content=ob%27s+klappt&FixedEmail=uwe.eichkorn@mch-group.com&FromName=noreply&FromEmail=noreply-analytics@messe.ch&BaseSiteURL=http://localhost"
 - ID: "3f72bc07-de92-483e-a724-d430769d9ba4"
   Hint: Designer ID
-  Value: "3c628062-dc86-477b-a4ca-e5179ecfc0b3"
+  Value: "e786781b-1359-4c4b-9f75-040d439a0ce9"
 - ID: "7642ed71-348b-4b88-8634-cc7b28949472"
   Hint: Origin ID
   Value: "bc62a688-ae9e-4462-abd4-73e28782d74a"
@@ -37,7 +37,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20171004T045241Z
+      Value: 20180117T083617Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

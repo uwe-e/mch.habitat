@@ -85,16 +85,13 @@ Languages:
       Value: 
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: 
+      Value: Netzwerkplattform der Schweizer Stromwirtschaft
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Besucherbereich
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
       Value: |
-        <div class="styled-h1">
-        <h1>
-        <span class="CustomStyle1">Netzwerkplattform</span> <span class="CustomStyle2">der Schweizer</span> <span class="CustomStyle3">Stromwirtschaft</span></h1>
-        <p>An den Powertagen trifft sich die Schweizer Stromwirtschaft.&nbsp; Die Veranstaltung überzeugt durch ihren Mix aus Fachvorträgen, Austausch und Firmenpräsentationen und bietet einen umfassenden Überblick über technische Trends, politische Weichenstellungen und die aktuellen unternehmerischen Herausforderungen. Wir laden Sie herzlich ein, am Dialog teilzunehmen, um Innovationen kennenzulernen und gemeinsam die neue Energiewelt voranzutreiben. Wir freuen uns auf Ihren Besuch.</p>
-        <p>Die nächsten Powertage finden von Dienstag, <strong>5. bis</strong> Donnerstag, <strong>7. Juni 2018</strong> in der Messe Zürich statt.</p>
-        </div>
+        <p>An den Powertagen trifft sich die Schweizer Stromwirtschaft.&nbsp; Die Veranstaltung &uuml;berzeugt durch ihren Mix aus Fachvortr&auml;gen, Austausch und Firmenpr&auml;sentationen und bietet einen umfassenden &Uuml;berblick &uuml;ber technische Trends, politische Weichenstellungen und die aktuellen unternehmerischen Herausforderungen. Wir laden Sie herzlich ein, am Dialog teilzunehmen, um Innovationen kennenzulernen und gemeinsam die neue Energiewelt voranzutreiben. Wir freuen uns auf Ihren Besuch.</p>
+        <p>Die n&auml;chsten Powertage finden von Dienstag, <strong>5. bis</strong> Donnerstag, <strong>7. Juni 2018</strong> in der Messe Z&uuml;rich statt.</p>
+        

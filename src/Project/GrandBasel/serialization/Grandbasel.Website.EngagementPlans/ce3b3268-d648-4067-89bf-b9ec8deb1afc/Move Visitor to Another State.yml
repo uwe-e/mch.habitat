@@ -1,0 +1,44 @@
+﻿---
+ID: "849d426e-96b3-4ade-92b0-5667af2f3774"
+Parent: "ce3b3268-d648-4067-89bf-b9ec8deb1afc"
+Template: "8c5ead00-5f68-4310-ab0c-84f283b5ee0a"
+Path: "/sitecore/system/Marketing Control Panel/Engagement Plans/Grandbasel/Exhibitor Registration/First Engagement - Next State/Login/Move Visitor to Another State"
+DB: master
+SharedFields:
+- ID: "1507131d-cee3-49e9-af32-de5403a37b49"
+  Hint: Parameters
+  Value: "AutomationActionDescription=Ausstelleranmeldung&AutomationStateItemId=dc0f8ac1-282e-4d46-81f5-6ea6da0a430e&AutomationStateDesignerId="
+- ID: "3f72bc07-de92-483e-a724-d430769d9ba4"
+  Hint: Designer ID
+  Value: "849d426e-96b3-4ade-92b0-5667af2f3774"
+- ID: "7642ed71-348b-4b88-8634-cc7b28949472"
+  Hint: Origin ID
+  Value: "2eeb5583-0057-4f17-a2bc-8eb36bd59e92"
+- ID: "8728a037-47d3-4180-b754-87926eda7ae8"
+  Hint: Editor
+  Value: "/sitecore/shell/default.aspx?xmlcontrol=MoveVisitorToAnotherState"
+- ID: "a291a22b-99e2-46bb-a27b-8ec744275396"
+  Hint: Type
+  Value: Sitecore.Analytics.Automation.AutomationActions.MoveContactToAnotherStateAction,Sitecore.Analytics.Automation
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Fields:
+  - ID: "06f2d72a-1924-4b9a-ba1e-186ce4e57efd"
+    Hint: Description
+    Value: 
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Move Visitor to Another State
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180315T140619Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826

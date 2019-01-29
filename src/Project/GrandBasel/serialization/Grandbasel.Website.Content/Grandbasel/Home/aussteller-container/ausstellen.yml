@@ -75,22 +75,18 @@ Languages:
         meba\u20826
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: 
+      Value: Deshalb lohnt sich eine Teilnahme
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: ausstellen
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
       Value: |
-        <div class="styled-h1">
-        <h1>
-        <span class="CustomStyle1">Deshalb</span> <span class="CustomStyle2">lohnt sich eine</span> <span class="CustomStyle3">Teilnahme</span></h1>
-        <p>Neue Geschäftsmodelle, Prozesse und Marktteilnehmer sorgen auf allen Stufen der Wertschöpfungskette für Veränderung. Diskutieren Sie mit und seien Sie Teil der neuen Energiekonzepte und Lösungen. Profitieren Sie von qualitativen Fachvorträgen, regem Austausch in den Networking-Zonen und den informativen Firmenpräsentationen.</p>
+        <p>Neue Gesch&auml;ftsmodelle, Prozesse und Marktteilnehmer sorgen auf allen Stufen der Wertsch&ouml;pfungskette f&uuml;r Ver&auml;nderung. Diskutieren Sie mit und seien Sie Teil der neuen Energiekonzepte und L&ouml;sungen. Profitieren Sie von qualitativen Fachvortr&auml;gen, regem Austausch in den Networking-Zonen und den informativen Firmenpr&auml;sentationen.</p>
         <p>Die Powertage..</p>
         <ul>
-            <li>ist die grösste und bedeutendste Fachmesse für die Schweizer Stromwirtschaft</li>
+            <li>ist die gr&ouml;sste und bedeutendste Fachmesse f&uuml;r die Schweizer Stromwirtschaft</li>
             <li>veranstaltet ein qualitativ hochstehendes Fachforum</li>
             <li>bietet einen regen Erfahrungsaustausch</li>
         </ul>
-        <p>Wir laden Sie herzlich ein, an den Powertagen vom 5. bis 7. Juni 2018, am Dialog teilzunehmen, Ihr Angebot vorzustellen und über konkrete Lösungen zu diskutieren. </p>
-        </div>
+        <p>Wir laden Sie herzlich ein, an den Powertagen vom 5. bis 7. Juni 2018, am Dialog teilzunehmen, Ihr Angebot vorzustellen und &uuml;ber konkrete L&ouml;sungen zu diskutieren. </p>

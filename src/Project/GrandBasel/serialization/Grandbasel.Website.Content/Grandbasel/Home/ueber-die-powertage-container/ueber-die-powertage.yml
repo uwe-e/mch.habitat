@@ -107,15 +107,10 @@ Languages:
         meba\u20826
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: Über die Powertage
+      Value: Wissenswertes über die Powertage
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: "ueber-die-powertage"
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
-      Value: |
-        <div class="styled-h1">
-        <h1>
-        <span class="CustomStyle1">Wissenswertes</span> <span class="CustomStyle2">&uuml;ber die</span> <span class="CustomStyle3">Powertage</span></h1>
-        <p>Die Powertage sind der Branchentreffpunkt der Schweizer Stromwirtschaft und finden alle zwei Jahre in der Messe Z&uuml;rich statt. Das erfolgreiche Veranstaltungskonzept mit seinem Mix aus Fachvortr&auml;gen,&nbsp;Austausch und Firmenpr&auml;sentationen unterst&uuml;tzt die Vernetzung und bietet&nbsp;einen umfassenden &Uuml;berblick &uuml;ber technische Trends, politische Weichenstellungen&nbsp;und die aktuellen unternehmerischen Herausforderungen.</p>
-        </div>
+      Value: <p>Die Powertage sind der Branchentreffpunkt der Schweizer Stromwirtschaft und finden alle zwei Jahre in der Messe Z&uuml;rich statt. Das erfolgreiche Veranstaltungskonzept mit seinem Mix aus Fachvortr&auml;gen,&nbsp;Austausch und Firmenpr&auml;sentationen unterst&uuml;tzt die Vernetzung und bietet&nbsp;einen umfassenden &Uuml;berblick &uuml;ber technische Trends, politische Weichenstellungen&nbsp;und die aktuellen unternehmerischen Herausforderungen.</p>

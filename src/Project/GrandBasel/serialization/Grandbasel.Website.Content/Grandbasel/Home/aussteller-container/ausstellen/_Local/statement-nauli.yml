@@ -13,6 +13,21 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "0ecd00b4-da0e-44aa-abbe-1e485dffedaf"
+      Hint: Body
+      Value: |
+        <div class="bildContainer">
+            <div class="bild">
+                <img style="width: 97px; height: 128px;" alt="Reto Nauli" src="-/media/8D1D740CC12F468E9AA4B6616C40CB4F.ashx?h=128&amp;w=97&amp;hash=8D6C0CD768851BDC6FAE5374CE003CFBA3B49128" />
+            </div>
+            <div class="bildLegende">
+                <strong>Reto Nauli</strong><br />Siemens Schweiz AG
+            </div>
+        </div>
+        
+        <div class="hauptText">
+            An den Powertagen trifft sich die ganze Strombranche. In einer professionellen Atmosphäre lassen sich Kontakte knüpfen und vertiefende Gespräche führen. In dieser hochkonzentrierten Form ist das einmalig für die Schweizer Messelandschaft.
+        </div>
     - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
       Hint: TeaserImage
       Value: |

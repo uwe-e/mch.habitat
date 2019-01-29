@@ -5,13 +5,28 @@ Template: "0643d9d4-f30b-4b07-91d0-289cc324c9cf"
 Path: /sitecore/content/Grandbasel
 DB: master
 SharedFields:
+- ID: "1c843e6a-02b9-4aa0-9fed-fdfddc419ae3"
+  Hint: Search Results Page
+  Value: /sitecore/content/Grandbasel/Home/Search
 - ID: "5f115b6d-6052-4c7e-b442-ae923a7e9bd2"
   Hint: SupportedLanguages
   Type: Multilist
-  Value: "{FF949521-C7B4-416D-86AF-D09C1120F5E1}"
+  Value: "{AF584191-45C9-4201-8740-5409F4CF8BDD}"
+- ID: "60745023-ffd5-400e-8f80-4bca9f2abb29"
+  Hint: Login Page
+  Value: /sitecore/content/Grandbasel/Home/Login
+- ID: "71962360-10d8-4b98-bb8d-57660ce11127"
+  Hint: Register Page
+  Value: /sitecore/content/Grandbasel/Home/Register
+- ID: "b128e2b3-3865-4f1c-a147-5f248676d3f5"
+  Hint: After Login Page
+  Value: /sitecore/content/Grandbasel/Home/Edit Profile
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 1099
+- ID: "ed71d374-8c33-4561-991d-77482ae01330"
+  Hint: Accounts Details Page
+  Value: /sitecore/content/Grandbasel/Home/Edit Profile
 Languages:
 - Language: en
   Fields:
@@ -25,10 +40,20 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "02115632-fe1e-4b3d-9ad4-a4ddf1f782f0"
+      Hint: Copyright
+      Value: "© Copyright 2017 by MCH Group AG - Impressum"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20170728T091835Z
+    - ID: "378b7d87-5775-4eb6-86b7-282d5359b1c6"
+      Hint: User Profile
+      Value: "{14523428-879D-491C-9DF0-1417E82A4311}"
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         meba\u20826
+    - ID: "e748d808-64c1-4dec-9718-f35cf9689e4b"
+      Hint: Logo
+      Value: |
+        <image mediaid="{73ED9135-A695-4E46-B439-8691BC33AE74}" />

@@ -1,0 +1,43 @@
+﻿---
+ID: "a128fe04-e3f1-4737-b0b3-e4fe1376dccb"
+Parent: "19fc93cf-903e-468a-a6f9-fd9a4a4bcfb1"
+Template: "c9e1bf85-800a-4247-a3a3-c3f5dfbfd6aa"
+Path: "/sitecore/system/Modules/Web Forms for Marketers/Grandbasel/aussteller-download-registrierung/Firma"
+DB: master
+SharedFields:
+- ID: "35c76a0b-b630-458c-aecc-1d62c50d24fc"
+  Hint: Field Link
+  Value: "{6353E864-D3AE-4FF9-88DD-60B0F779A44A}"
+- ID: "acd3122b-f975-433e-9802-35bc5f8fe2b4"
+  Hint: Required
+  Type: Checkbox
+  Value: 0
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+- ID: "e312bdfa-ddba-4acc-907a-89a0b59638d4"
+  Hint: Rules
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule
+        uid="{DA8EBD83-8E48-4338-AF63-9B5E816CF30D}"
+        name="New Condition">
+        <actions />
+      </rule>
+    </ruleset>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170928T100659Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        meba\u20826
+    - ID: "821724f3-30bb-4152-a770-88bc43ac175a"
+      Hint: Title
+      Value: Firma

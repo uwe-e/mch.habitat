@@ -103,12 +103,12 @@ Languages:
       Hint: Image
       Value: |
         <image mediaid="{7679C4D3-0F05-4024-8017-B7BD0555AA3F}" alt="" height="400" width="500" hspace="" vspace="" />
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Teilnahmepakete transparent und effizient
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
       Value: |
-        <div class="styled-h1">
-        <h1>
-        <span class="CustomStyle1">Teilnahmepakete</span> <span class="CustomStyle2">transparent</span> <span class="CustomStyle3">und effizient</span></h1>
         <p><strong>Folgende Angebote stehen Ihnen f&uuml;r die Pr&auml;sentation in der Ausstellung zur Verf&uuml;gung:</strong></p>
         <h2>Ihr All-In-Teilnahmepaket</h2>
         <p>(Preise exkl. 8 % MwSt.)</p>
@@ -119,7 +119,7 @@ Languages:
             <li>60 m<sup>2</sup>: CHF 61'200.-&nbsp;&nbsp;
             </li>
         </ul>
-        </div>
+        
         <h3>Im Paket sind folgende Dienstleistungen inbegriffen</h3>
         <ul class="styled-ul">
             <li>Standfl&auml;che</li>

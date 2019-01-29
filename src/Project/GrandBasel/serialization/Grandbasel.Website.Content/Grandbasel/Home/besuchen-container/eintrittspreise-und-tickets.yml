@@ -46,10 +46,75 @@ Languages:
               p:before="*"
               s:ds="{62B01BE0-5EF5-4F94-B390-4F424D3355D5}"
               s:id="{F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}"
-              s:ph="/page-layout/section-narrow/col-wide-1_e8bb4852-1ca7-4376-ac89-4910d54ddc73" />
+              s:ph="/page-layout/section-narrow/col-wide-1_e8bb4852-1ca7-4376-ac89-4910d54ddc73">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{FBF405EF-7921-4C8F-96D5-2999265BBCE5}"
+                    s:name="If user isn't preregistered yet">
+                    <conditions>
+                      <condition
+                        uid="18C67D6207DB4AB0994AA186E32FDC05"
+                        s:id="{D708FFF6-00C2-4C73-B257-92F0476BA603}"
+                        s:GoalId="{0E59F159-0811-4CA3-8516-A72EF0B3CF61}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="E36FFA07B2114A71B7EFB6BADCE080F6"
+                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="93EEA53BBF684CB8B6EDBBD8DB1521A2"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{3A641B49-3B9B-4446-A541-5861D9140EA1}"
+              p:after="r[@uid='{B83D4874-FED4-4A37-A120-2432723CABDE}']"
+              s:ds="{A4F09EA1-E4A8-4F8B-A29A-59B56D720DFA}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:ph="/page-layout/section-narrow/col-wide-1_e8bb4852-1ca7-4376-ac89-4910d54ddc73">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{7311B9A1-146B-4745-B05A-DF66DA48CAB9}"
+                    s:name="If user isn't preregistered yet">
+                    <conditions>
+                      <condition
+                        uid="B8ABE7DC0AB245B3B1F2044CFDC7E3C5"
+                        s:id="{D708FFF6-00C2-4C73-B257-92F0476BA603}"
+                        s:GoalId="{0E59F159-0811-4CA3-8516-A72EF0B3CF61}" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="07F2B76813B14F168312006923C98234"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="857192E687CA4B66B2852FB9509A1AE2"
+                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r
               uid="{E8BB4852-1CA7-4376-AC89-4910D54DDC73}"
-              p:after="r[@uid='{B83D4874-FED4-4A37-A120-2432723CABDE}']"
+              p:after="r[@uid='{3A641B49-3B9B-4446-A541-5861D9140EA1}']"
               s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
               s:ph="/page-layout/section-narrow" />
           </d>
@@ -66,29 +131,25 @@ Languages:
         meba\u20826
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: 
+      Value: Wie Sie ein Ticket kaufen
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
       Value: |
-        <div class="styled-h1">
-        <h1>
-        <span class="CustomStyle2">Wie Sie ein</span> <span class="CustomStyle3">Ticket kaufen</span></h1>
-        <div><strong>Ab April 2018 können Sie Ihr Ticket über den Ticketshop kaufen.</strong> <br />
-        Hinweis: Die nachfolgend aufgeführten Preise verstehen sich inklusive Mehrwertsteuer.
+        <div><strong>Ab April 2018 k&ouml;nnen Sie Ihr Ticket &uuml;ber den Ticketshop kaufen.</strong> <br />
+        Hinweis: Die nachfolgend aufgef&uuml;hrten Preise verstehen sich inklusive Mehrwertsteuer.
         <p><strong>Fachforum</strong></p>
         <ul>
-            <li>Vor Ort CHF 95.- (inkl. Lunch, Snacks, Getränke)</li>
+            <li>Vor Ort CHF 95.- (inkl. Lunch, Snacks, Getr&auml;nke)</li>
             <li>Online-Registration CHF 85.- (inkl. Lunch, Snacks, Getr.)</li>
         </ul>
         <p><strong>Ausstellungseintritt ab 10.00 Uhr</strong></p>
         <ul>
-            <li>Vor Ort CHF 55.– (inkl. Lunch, Getränke)</li>
-            <li>Online-Registration CHF 50.- (inkl. Lunch, Getränke)</li>
+            <li>Vor Ort CHF 55.&ndash; (inkl. Lunch, Getr&auml;nke)</li>
+            <li>Online-Registration CHF 50.- (inkl. Lunch, Getr&auml;nke)</li>
         </ul>
         <p><strong>Ausstellungseintritt ab 13.30 Uhr</strong></p>
         <ul>
-            <li>Vor Ort CHF 30.- (inkl. Snacks und Getränke)</li>
-            <li>Online-Registration CHF 25.- (inkl. Snacks, Getränke)</li>
+            <li>Vor Ort CHF 30.- (inkl. Snacks und Getr&auml;nke)</li>
+            <li>Online-Registration CHF 25.- (inkl. Snacks, Getr&auml;nke)</li>
         </ul>
-        </div>
         </div>

@@ -107,12 +107,7 @@ Languages:
         meba\u20826
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: 
+      Value: "Jetzt anmelden! "
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
-      Value: |
-        <div class="styled-h1">
-        <h1>
-        <span class="CustomStyle3">Jetzt anmelden!</span>
-        </h1>
-        </div>
+      Value: 

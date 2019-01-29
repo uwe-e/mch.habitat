@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
   Hint: Path
-  Value: /Views/GrandBasel/Layouts/Default.cshtml
+  Value: /Views/Common/Layouts/Default.cshtml
 Languages:
 - Language: en
   Versions:

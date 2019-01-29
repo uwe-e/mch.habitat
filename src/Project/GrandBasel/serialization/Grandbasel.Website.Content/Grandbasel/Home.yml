@@ -1,9 +1,14 @@
 ﻿---
 ID: "63bd82bc-6f2f-4ab3-bcee-d796054bdbbf"
 Parent: "10164a0a-59bf-4f58-911d-389b10ed1b90"
-Template: "4a8822cc-b418-4452-ab0f-8bb6df2f2114"
+Template: "8aaf19e0-7021-45be-97f8-7ffb01e88d28"
 Path: /sitecore/content/Grandbasel/Home
 DB: master
+SharedFields:
+- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
+  Hint: ShowInNavigation
+  Type: Checkbox
+  Value: 0
 Languages:
 - Language: en
   Versions:
@@ -16,9 +21,172 @@ Languages:
         <r xmlns:p="p" xmlns:s="s"
           p:p="1">
           <d
-            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
-            s:l="{BBF0A7C7-3CF3-48DC-84DB-1D0C7D1B7BC3}" />
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{65DC54DA-16C6-40EB-9C46-AC462432FDCB}"
+              p:before="*"
+              s:ds="{D1261EFD-D7C4-431F-B07C-B8A1A5E05211}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:par="Background&amp;Fixed height&amp;Class={1A80DF7F-6372-4033-BFA9-69971B62E21D}&amp;Additional Class"
+              s:ph="/page-layout/section_a3ca17ff-693c-46f1-87aa-b8c1833f1890/col-huge_deda73a0-1d0e-4022-a3e1-c204f7583bb2">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{10364C98-D201-4609-B531-C4BBEC8ABCFB}"
+                    s:name="Not registered exhibitor">
+                    <actions>
+                      <action
+                        uid="5048D2C959FE414AAC61C5B371B2CB37"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{646EE91F-A85F-4A10-87DD-16D3F7FDD67E}" />
+                    </actions>
+                    <conditions>
+                      <and
+                        uid="521D1192706243E7B237ED5EE7BB9436">
+                        <condition
+                          uid="73D81BC00F6F4DC89C96F02A71C10207"
+                          s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                          s:ProfileName="Grandbasel"
+                          s:PatternName="Exhibitor Pattern" />
+                        <and
+                          uid="575D0B04339346B8B1C8A821EBDF0EC6">
+                          <condition
+                            uid="6FC88201358B422FBB587552670A575F"
+                            s:id="{D708FFF6-00C2-4C73-B257-92F0476BA603}"
+                            s:except="true"
+                            s:GoalId="{C97DCEDE-FC35-42D7-82E6-1B51C48FC085}" />
+                          <condition
+                            uid="67EB49BF6E4141958DE39DE64E059188"
+                            s:id="{D708FFF6-00C2-4C73-B257-92F0476BA603}"
+                            s:except="true"
+                            s:GoalId="{12A7D5E4-6B9C-479A-A35B-ED566FE43D89}" />
+                        </and>
+                      </and>
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{F7C02996-FE05-4F83-B6EA-6EDD4B714FE7}"
+                    s:name="Specify name...">
+                    <conditions>
+                      <and
+                        uid="D4167327D95C4D10B8476AFEA57053E0">
+                        <condition
+                          uid="C949380D7AAA499D9F30706C222D3A8C"
+                          s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                          s:ProfileName="Grandbasel"
+                          s:PatternName="Exhibitor Pattern" />
+                        <condition
+                          uid="C6E01C2C44784FEA9BE0459E30C2E59E"
+                          s:id="{D708FFF6-00C2-4C73-B257-92F0476BA603}"
+                          s:GoalId="{12A7D5E4-6B9C-479A-A35B-ED566FE43D89}"
+                          s:except="true" />
+                      </and>
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="8C5C92E92E3040F28FD9520ED449B3E0"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="08C4E448A0D84E43A5CDF069CD24A822"
+                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{DEDA73A0-1D0E-4022-A3E1-C204F7583BB2}"
+              p:after="r[@uid='{65DC54DA-16C6-40EB-9C46-AC462432FDCB}']"
+              s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+              s:ph="/page-layout/section_a3ca17ff-693c-46f1-87aa-b8c1833f1890" />
+            <r
+              uid="{6D387F45-5B85-4505-B796-138BD3F8C26F}"
+              p:after="r[@uid='{DEDA73A0-1D0E-4022-A3E1-C204F7583BB2}']"
+              s:ds="{D1261EFD-D7C4-431F-B07C-B8A1A5E05211}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:par="Background&amp;Class={1A80DF7F-6372-4033-BFA9-69971B62E21D}&amp;Fixed height"
+              s:ph="/page-layout/section_a3ca17ff-693c-46f1-87aa-b8c1833f1890/col-huge_00e7df3f-f0dd-490c-b6cd-d508527b6dfb" />
+            <r
+              uid="{3BED1688-B372-4D9F-BC9B-5C279058528B}"
+              p:after="r[@uid='{6D387F45-5B85-4505-B796-138BD3F8C26F}']"
+              s:ds="{BADFCF3E-94FD-4F76-BC18-F1F1574D1706}"
+              s:id="{8B28417B-A5B3-44F1-BFCC-FE1D907336E7}"
+              s:ph="/page-layout/page-header">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{98EAF85E-C9D5-4D4D-BFAA-018783D83BFA}"
+                    s:name="exhibitor-pattern">
+                    <conditions>
+                      <and
+                        uid="A422FCC0EB3C4D1FBFECF7DE366ADC91">
+                        <condition
+                          uid="0CC5125896BA4284AA42E4B627C114D5"
+                          s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                          s:ProfileName="Grandbasel"
+                          s:PatternName="Exhibitor Pattern" />
+                        <condition
+                          uid="FB379EF926BC4108900948A21BA3AE9E"
+                          s:id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}"
+                          s:except="true"
+                          s:GoalId="{0E59F159-0811-4CA3-8516-A72EF0B3CF61}" />
+                      </and>
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="94284F78D44D48D39329A8E0FA3D1013"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{D390C4E7-2CD4-4B04-AF2C-3688885842B5}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{0FA0C134-531F-4605-9098-F4192F05A763}"
+                    s:name="Ticket Prereservated Visitor">
+                    <conditions>
+                      <condition
+                        uid="86F7676671B2449CAB7F02AA70B7E72C"
+                        s:id="{D708FFF6-00C2-4C73-B257-92F0476BA603}"
+                        s:GoalId="{0E59F159-0811-4CA3-8516-A72EF0B3CF61}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="938BD596C524430CB5A1424E355D7C2D"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{BB07404E-FF64-40D0-845F-D4E900B367F0}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="6CA0C0540763466490BC8A29E852C239"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="8C2DAE9BCE23482885531124F523FAE6"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{BADFCF3E-94FD-4F76-BC18-F1F1574D1706}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{A3CA17FF-693C-46F1-87AA-B8C1833F1890}"
+              s:ds="{D1261EFD-D7C4-431F-B07C-B8A1A5E05211}" />
+          </d>
         </r>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Home
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20170728T091856Z
