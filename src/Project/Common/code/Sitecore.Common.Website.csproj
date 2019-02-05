@@ -208,6 +208,7 @@
     <Content Include="App_Config\Include\Project\z.Analytics.Tracking.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="App_Config\Include\Project\z.EngagementAutomation.TimeoutProcessing.config" />
     <None Include="App_Config\Security\domains.config.transform">
       <SubType>Designer</SubType>
     </None>
