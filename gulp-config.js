@@ -1,5 +1,5 @@
 module.exports = function () {
-    var instanceRoot = "d:\\Work\\Sitecore\\mch.habitat.dev";
+    var instanceRoot = "d:\\Work\\Sitecore\\mch.habitat.v8.dev";
     var config = {
         websiteRoot: instanceRoot + "\\Website",
         sitecoreLibraries: instanceRoot + "\\Website\\bin",
